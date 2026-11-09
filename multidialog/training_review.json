@@ -1,0 +1,64 @@
+{
+  "review_date": "2026-11-10",
+  "dataset": "MultiDialog",
+  "selected_scope": "official test_freq/test_rare, source revision49a79605cf7f07c94f5d6f12ebddfed0be5e7986",
+  "interpretation": "No documented or reasonably established corpus-specific training-process chain for any selected checkpoint. This is unknown, not proof of never-used; no accuracy results were used.",
+  "models": {
+    "emotion2vec_plus_large": {
+      "status": "unknown",
+      "seen_flag": false,
+      "source_url": "https://huggingface.co/emotion2vec/emotion2vec_plus_large/blob/6c303ba987b86b93193de93e34bb2b077a6bedc4/README.md",
+      "reason": "EmoBox upstream inventory and seed/base teacher chain do not name MultiDialog. Large industrial sources are undisclosed. No corpus-specific direct or indirect chain established."
+    },
+    "meralion_ser_v1": {
+      "status": "unknown",
+      "seen_flag": false,
+      "source_url": "https://arxiv.org/html/2511.04914v1#S4.SS1",
+      "reason": "Named SER sources and seed/base-label teacher route do not name MultiDialog; Whisper backbone and proprietary sources are not exhaustive record lists."
+    },
+    "melati_emotion": {
+      "status": "unknown",
+      "seen_flag": false,
+      "source_url": "https://huggingface.co/Scicom-intl/Melati-Emotion-Whisper-Large-V3/resolve/145f4eb05d07dc4d06352132787a8b4f836e7710/README.md",
+      "reason": "Nine public head sources and separately described internal head sources do not name MultiDialog; retained Whisper-large-v3 sources are not individually disclosed."
+    },
+    "vox_profile_whisper": {
+      "status": "unknown",
+      "seen_flag": false,
+      "source_url": "https://huggingface.co/tiantiaf/whisper-large-v3-msp-podcast-emotion/resolve/b92dab65151206a603810ec8b72eb528b9dd983c/README.md",
+      "reason": "Selected head uses MSP-Podcast, not a documented MultiDialog training path; retained Whisper-large-v3 corpus membership is not exhaustive."
+    },
+    "vox_profile_wavlm": {
+      "status": "unknown",
+      "seen_flag": false,
+      "source_url": "https://huggingface.co/tiantiaf/wavlm-large-categorical-emotion/resolve/621a2ceaaa2408e390e0fc9454e8c29490f689e2/README.md",
+      "reason": "Selected head uses MSP-Podcast; named WavLM pretraining sources are Libri-Light/GigaSpeech/VoxPopuli. No named MultiDialog path or recording-level exclusion audit."
+    },
+    "gemma4_e4b": {
+      "status": "unknown",
+      "seen_flag": false,
+      "source_url": "https://ai.google.dev/gemma/docs/core/model_card_4",
+      "reason": "Broad internet pretraining and incomplete posttraining source lists do not establish or exclude MultiDialog. Public-release chronology/cutoff is not treated as proof of absence."
+    },
+    "qwen2_5_omni_7b": {
+      "status": "unknown",
+      "seen_flag": false,
+      "source_url": "https://arxiv.org/html/2503.20215v1",
+      "reason": "Official report/model card do not name MultiDialog in the selected checkpoint training; Whisper/Qwen backbones and source mixtures are not exhaustive corpus lists. Later external adapters using MultiDialog are not evidence of training the original selected checkpoint."
+    },
+    "qwen2_audio_7b": {
+      "status": "unknown",
+      "seen_flag": false,
+      "source_url": "https://arxiv.org/html/2407.10759v1",
+      "reason": "Official report does not name MultiDialog/TopicalChat training. Its evaluation exclusion statement is not a complete upstream Whisper/Qwen corpus audit."
+    }
+  },
+  "additional_sources": [
+    "https://github.com/emo-box/EmoBox#datasets",
+    "https://huggingface.co/openai/whisper-large-v3#training-data",
+    "https://huggingface.co/microsoft/wavlm-large",
+    "https://github.com/ddlBoJack/emotion2vec/issues/46",
+    "https://github.com/ddlBoJack/emotion2vec/issues/73"
+  ],
+  "text_source_caution": "MultiDialog performs TopicalChat scripts. Possible familiarity with source text is a separate question; no concrete selected-LM source-text inclusion was established."
+}

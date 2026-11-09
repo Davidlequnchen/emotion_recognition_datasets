@@ -1,0 +1,140 @@
+[
+  {
+    "target": {
+      "clip_id": "t_da4917c4-d77d-4a68-a3e9-0a841a636556_15c",
+      "audio_path": "audio/test_rare/t_da4917c4-d77d-4a68-a3e9-0a841a636556/t_da4917c4-d77d-4a68-a3e9-0a841a636556_15c.wav",
+      "dialogue_id": "t_da4917c4-d77d-4a68-a3e9-0a841a636556",
+      "turn_index": "15",
+      "speaker_id": "c",
+      "text": "Why?",
+      "raw_emotion": "Curious to dive deeper",
+      "emotion": "neutral",
+      "duration_s": "0.6186875"
+    },
+    "history_audio_paths": [
+      "audio/test_rare/t_da4917c4-d77d-4a68-a3e9-0a841a636556/t_da4917c4-d77d-4a68-a3e9-0a841a636556_12g.wav",
+      "audio/test_rare/t_da4917c4-d77d-4a68-a3e9-0a841a636556/t_da4917c4-d77d-4a68-a3e9-0a841a636556_13c.wav",
+      "audio/test_rare/t_da4917c4-d77d-4a68-a3e9-0a841a636556/t_da4917c4-d77d-4a68-a3e9-0a841a636556_14g.wav"
+    ],
+    "cohort": "gold_both after dialogue-level QC",
+    "note": "Intended script emotion, not listener consensus. Labels are audit-only, never supplied in history prompts."
+  },
+  {
+    "target": {
+      "clip_id": "t_289f83af-7881-4965-8ac2-fe66f50f274a_23c",
+      "audio_path": "audio/test_freq/t_289f83af-7881-4965-8ac2-fe66f50f274a/t_289f83af-7881-4965-8ac2-fe66f50f274a_23c.wav",
+      "dialogue_id": "t_289f83af-7881-4965-8ac2-fe66f50f274a",
+      "turn_index": "23",
+      "speaker_id": "c",
+      "text": "Bye",
+      "raw_emotion": "Happy",
+      "emotion": "happy",
+      "duration_s": "0.96"
+    },
+    "history_audio_paths": [
+      "audio/test_freq/t_289f83af-7881-4965-8ac2-fe66f50f274a/t_289f83af-7881-4965-8ac2-fe66f50f274a_20g.wav",
+      "audio/test_freq/t_289f83af-7881-4965-8ac2-fe66f50f274a/t_289f83af-7881-4965-8ac2-fe66f50f274a_21c.wav",
+      "audio/test_freq/t_289f83af-7881-4965-8ac2-fe66f50f274a/t_289f83af-7881-4965-8ac2-fe66f50f274a_22g.wav"
+    ],
+    "cohort": "gold_both after dialogue-level QC",
+    "note": "Intended script emotion, not listener consensus. Labels are audit-only, never supplied in history prompts."
+  },
+  {
+    "target": {
+      "clip_id": "t_63a91e10-aefe-437a-954a-7c3988393dbd_1c",
+      "audio_path": "audio/test_rare/t_63a91e10-aefe-437a-954a-7c3988393dbd/t_63a91e10-aefe-437a-954a-7c3988393dbd_1c.wav",
+      "dialogue_id": "t_63a91e10-aefe-437a-954a-7c3988393dbd",
+      "turn_index": "1",
+      "speaker_id": "c",
+      "text": "No, unfortunately I have not. Have you?",
+      "raw_emotion": "Sad",
+      "emotion": "sad",
+      "duration_s": "2.56"
+    },
+    "history_audio_paths": [
+      "audio/test_rare/t_63a91e10-aefe-437a-954a-7c3988393dbd/t_63a91e10-aefe-437a-954a-7c3988393dbd_0g.wav"
+    ],
+    "cohort": "gold_both after dialogue-level QC",
+    "note": "Intended script emotion, not listener consensus. Labels are audit-only, never supplied in history prompts."
+  },
+  {
+    "target": {
+      "clip_id": "t_08247639-86ea-4f3c-9259-cff0a33336cd_15f",
+      "audio_path": "audio/test_rare/t_08247639-86ea-4f3c-9259-cff0a33336cd/t_08247639-86ea-4f3c-9259-cff0a33336cd_15f.wav",
+      "dialogue_id": "t_08247639-86ea-4f3c-9259-cff0a33336cd",
+      "turn_index": "15",
+      "speaker_id": "f",
+      "text": "he probably couldn't read either",
+      "raw_emotion": "Angry",
+      "emotion": "angry",
+      "duration_s": "2.9013125"
+    },
+    "history_audio_paths": [
+      "audio/test_rare/t_08247639-86ea-4f3c-9259-cff0a33336cd/t_08247639-86ea-4f3c-9259-cff0a33336cd_12i.wav",
+      "audio/test_rare/t_08247639-86ea-4f3c-9259-cff0a33336cd/t_08247639-86ea-4f3c-9259-cff0a33336cd_13f.wav",
+      "audio/test_rare/t_08247639-86ea-4f3c-9259-cff0a33336cd/t_08247639-86ea-4f3c-9259-cff0a33336cd_14i.wav"
+    ],
+    "cohort": "gold_both after dialogue-level QC",
+    "note": "Intended script emotion, not listener consensus. Labels are audit-only, never supplied in history prompts."
+  },
+  {
+    "target": {
+      "clip_id": "t_e51a51d4-66f4-4c2d-98e4-f4189c1dcc30_9c",
+      "audio_path": "audio/test_rare/t_e51a51d4-66f4-4c2d-98e4-f4189c1dcc30/t_e51a51d4-66f4-4c2d-98e4-f4189c1dcc30_9c.wav",
+      "dialogue_id": "t_e51a51d4-66f4-4c2d-98e4-f4189c1dcc30",
+      "turn_index": "9",
+      "speaker_id": "c",
+      "text": "WOW",
+      "raw_emotion": "Surprised",
+      "emotion": "surprised",
+      "duration_s": "1.024"
+    },
+    "history_audio_paths": [
+      "audio/test_rare/t_e51a51d4-66f4-4c2d-98e4-f4189c1dcc30/t_e51a51d4-66f4-4c2d-98e4-f4189c1dcc30_6g.wav",
+      "audio/test_rare/t_e51a51d4-66f4-4c2d-98e4-f4189c1dcc30/t_e51a51d4-66f4-4c2d-98e4-f4189c1dcc30_7c.wav",
+      "audio/test_rare/t_e51a51d4-66f4-4c2d-98e4-f4189c1dcc30/t_e51a51d4-66f4-4c2d-98e4-f4189c1dcc30_8g.wav"
+    ],
+    "cohort": "gold_both after dialogue-level QC",
+    "note": "Intended script emotion, not listener consensus. Labels are audit-only, never supplied in history prompts."
+  },
+  {
+    "target": {
+      "clip_id": "t_cdd6117b-ec56-4d2e-81a7-478edfdc85e7_14g",
+      "audio_path": "audio/test_rare/t_cdd6117b-ec56-4d2e-81a7-478edfdc85e7/t_cdd6117b-ec56-4d2e-81a7-478edfdc85e7_14g.wav",
+      "dialogue_id": "t_cdd6117b-ec56-4d2e-81a7-478edfdc85e7",
+      "turn_index": "14",
+      "speaker_id": "g",
+      "text": "it really good to see",
+      "raw_emotion": "Fearful",
+      "emotion": "fearful",
+      "duration_s": "1.8986875"
+    },
+    "history_audio_paths": [
+      "audio/test_rare/t_cdd6117b-ec56-4d2e-81a7-478edfdc85e7/t_cdd6117b-ec56-4d2e-81a7-478edfdc85e7_11c.wav",
+      "audio/test_rare/t_cdd6117b-ec56-4d2e-81a7-478edfdc85e7/t_cdd6117b-ec56-4d2e-81a7-478edfdc85e7_12g.wav",
+      "audio/test_rare/t_cdd6117b-ec56-4d2e-81a7-478edfdc85e7/t_cdd6117b-ec56-4d2e-81a7-478edfdc85e7_13c.wav"
+    ],
+    "cohort": "gold_both after dialogue-level QC",
+    "note": "Intended script emotion, not listener consensus. Labels are audit-only, never supplied in history prompts."
+  },
+  {
+    "target": {
+      "clip_id": "t_dc937602-db3d-4952-97b7-12b4af955f51_5f",
+      "audio_path": "audio/test_freq/t_dc937602-db3d-4952-97b7-12b4af955f51/t_dc937602-db3d-4952-97b7-12b4af955f51_5f.wav",
+      "dialogue_id": "t_dc937602-db3d-4952-97b7-12b4af955f51",
+      "turn_index": "5",
+      "speaker_id": "f",
+      "text": "He's a murderer.",
+      "raw_emotion": "Disgusted",
+      "emotion": "disgusted",
+      "duration_s": "2.496"
+    },
+    "history_audio_paths": [
+      "audio/test_freq/t_dc937602-db3d-4952-97b7-12b4af955f51/t_dc937602-db3d-4952-97b7-12b4af955f51_2i.wav",
+      "audio/test_freq/t_dc937602-db3d-4952-97b7-12b4af955f51/t_dc937602-db3d-4952-97b7-12b4af955f51_3f.wav",
+      "audio/test_freq/t_dc937602-db3d-4952-97b7-12b4af955f51/t_dc937602-db3d-4952-97b7-12b4af955f51_4i.wav"
+    ],
+    "cohort": "gold_both after dialogue-level QC",
+    "note": "Intended script emotion, not listener consensus. Labels are audit-only, never supplied in history prompts."
+  }
+]

@@ -1,0 +1,10 @@
+dialogue_id,split,clips,speakers,complete,gold_both,audio_seconds,emotion_count,context_targets,qc_excluded,qc_reasons,baseline_eligible
+t_1006c900-d5e2-4aeb-8d01-dd6a65ae6fa9,test_freq,22,"c,g",True,True,434.9866875,3,0,True,long_audio_sparse_transcript,False
+t_36066ee7-42fb-413c-bce1-25a6933b938a,test_freq,21,"h,j",True,False,7.4026875000000025,4,0,True,implausibly_fast_text_audio,False
+t_505acccf-73ec-4dca-beaa-06e5f299e638,test_freq,22,"c,g",True,True,206.86925000000002,3,0,True,long_audio_sparse_transcript,False
+t_585ce67f-8494-49ca-9efc-9c855b08ecd0,test_freq,22,"f,i",True,True,127.65868749999998,5,0,True,implausibly_fast_text_audio,False
+t_cf0ebbf8-7f17-4546-9943-90c4315db6ff,test_freq,21,"h,j",True,False,102.63462500000001,3,0,True,implausibly_fast_text_audio,False
+t_cfd71db7-9e8c-423c-aa79-c71873591b2f,test_freq,21,"c,g",True,True,171.28525000000002,3,0,True,long_audio_sparse_transcript,False
+t_d98ba5de-8ce1-4853-b1d4-e8482981f673,test_freq,21,"c,g",True,True,102.27212499999999,1,0,True,implausibly_fast_text_audio,False
+t_57041535-b94c-4ccf-a27a-49031ab26bf3,test_rare,21,"k,l",True,False,113.00256249999998,3,0,True,implausibly_fast_text_audio,False
+t_a08aa238-fa2c-4ba0-9b41-79abd4513b26,test_rare,21,"c,g",True,True,161.36518750000002,4,0,True,implausibly_fast_text_audio,False

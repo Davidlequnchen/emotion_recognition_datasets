@@ -1,0 +1,15 @@
+{
+  "review_date": "2026-11-10",
+  "repository": "IVLLab/MultiDialog",
+  "revision": "49a79605cf7f07c94f5d6f12ebddfed0be5e7986",
+  "gated": false,
+  "private": false,
+  "declared_dataset_license": "CC BY-NC4.0",
+  "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+  "license_evidence": "Pinned official README front matter and HfApi dataset card metadata both cc-by-nc-4.0; public small files were accessed without a token.",
+  "legacy_loader_conflict": "MultiDialog.py contains an Apache2.0 code header and _LICENSE string. This is not used to relicense audio; retain code notices while applying the current dataset card CC BY-NC4.0 to recordings and derived data.",
+  "extra_access_terms_found": false,
+  "redistribution_basis": "CC BY-NC4.0 permits noncommercial sharing with attribution, license/source links and change notice; upstream source files and author attribution retained.",
+  "changes": "Original WAV and JSONL bytes unchanged. Added canonical labels, actor/quality selection, indexes, cohort IDs, source/license review and audit.",
+  "fees": "Free repository-file and license-text downloads only; no inference, endpoint, Jobs, subscription or paid service."
+}

@@ -11,11 +11,11 @@ Bulk data is stored in GitHub Releases. Git LFS is not used.
 Python 3.9+ is enough for the Release downloader. No model environment or hub account is needed.
 
 ```bash
-python3 download.py                   # restore the eleven mirrored datasets
+python3 download.py                   # restore the twelve mirrored datasets
 python3 download.py mead thai_ser     # or only selected datasets
-python3 download.py dailytalk emotiontalk  # restore the retained dialogue-context candidates
-python3 download.py --list            # show the thirteen evaluation copies plus retained pilot candidates
-python3 download.py --verify-only     # verify the eleven mirrored datasets offline
+python3 download.py dailytalk emotiontalk multidialog  # restore the three dialogue additions
+python3 download.py --list            # show all sixteen adopted datasets and their storage scopes
+python3 download.py --verify-only     # verify the twelve mirrored datasets offline
 ```
 
 From the main repository root:
@@ -29,7 +29,7 @@ files, and restores missing mirrored data. In a full main-project clone, it can 
 ESD is excluded from this catalogue and is never uploaded here. Unknown extra local materials remain in the
 preserved backup. Runtime paths stay `data/<dataset>/` inside the emotion-recognition project.
 
-The eleven mirror archives total about 25.09 GB of downloads and restore about 33.52 GB of files. Each archive is
+The twelve mirror archives total about 28.38 GB of downloads and restore about 37.27 GB of files. Each archive is
 split into attachments of at most 1.5 GiB. The downloader resumes interrupted transfers, checks every part and the
 complete archive with SHA-256, verifies every extracted file against the manifest before replacing dataset files,
 and leaves unrelated local files untouched. Default caches are removed after successful restoration; allow
@@ -37,9 +37,10 @@ additional working disk space for the current archive, downloaded parts, and sta
 
 ## Catalogue
 
-The catalogue contains thirteen evaluation copies plus DailyTalk and EmotionTalk as retained context-pilot
-candidates. Adding a retained dataset here does not add it to the main evaluation's model loaders or thirteen-dataset scope. Rows do not
-represent every upstream video, microphone channel or split. `manifest.json` pins exact file lists, sizes, SHA-256
+The catalogue contains sixteen adopted datasets: the original thirteen evaluation copies plus DailyTalk,
+EmotionTalk and the QC-limited MultiDialog test copy. The three additions await baselines; downloading them does
+not run evaluation. Main-project configurations determine the evaluation scope. Rows do not represent every
+upstream video, microphone channel or split. `manifest.json` pins exact file lists, sizes, SHA-256
 values and storage sources.
 
 | Dataset | Storage | Local files (GB) | Scope | Source terms |
@@ -59,6 +60,8 @@ values and storage sources.
 | [Emozionalmente](https://zenodo.org/records/12616095) (`emozionalmente`) | Original external source | 0.732 | v1.1: 6,902 WAVs and source metadata | See the original source licence and notices |
 | [DailyTalk](https://github.com/keonlee9420/DailyTalk) (`dailytalk`) | Release mirror; retained pilot | 6.917 | 2,541 ordered dialogues, 23,773 original WAV/TXT pairs and pinned metadata/ECSS supplements; not added to formal evaluation | Audio/data CC BY-SA 4.0; ECSS files retain MIT notices |
 | [EmotionTalk](https://huggingface.co/datasets/BAAI/Emotiontalk) (`emotiontalk`) | Release mirror; retained pilot | 14.793 | 19,250 original audio/JSON pairs, 742 dialogue IDs and audited past-history indexes; not added to formal evaluation | CC BY-NC-SA 4.0; attribution and changes preserved; not MIT |
+
+| [MultiDialog](https://huggingface.co/datasets/IVLLab/MultiDialog) (`multidialog`) | Release mirror; QC-limited tests | 3.758 | All 18,141 original test WAVs / 831 dialogues retained; default both-gold-actor + dialogue-QC cohort: 7,672 clips / 353 dialogues; baseline pending | CC BY-NC 4.0; audio unchanged, source attribution and changes preserved |
 
 Sizes use decimal GB. Each dataset retains its original terms; this repository does not apply one blanket licence
 to all recordings. Original source notes and notices are preserved. For SAVEE, the repository owner confirmed
@@ -148,6 +151,42 @@ For a standalone clone of this data repository, use `git pull --ff-only` followe
 `python3 download.py emotiontalk`. Release assets are appended under names containing the complete
 archive SHA prefix; existing assets are retained. Git contains the small audit/index files and manifest;
 raw per-clip JSON and WAV bytes are restored from verified Release attachments.
+
+
+## MultiDialog test addition
+
+The fixed official revision `49a79605cf7f07c94f5d6f12ebddfed0be5e7986` was downloaded and audited on
+2026-11-10. Only `test_freq` and `test_rare` were obtained: **18,141 original WAVs, 831 dialogues and
+32.3997 hours**, all 16 kHz mono PCM16. The full 339.71-hour corpus and videos were not downloaded.
+All retained files occupy 3.758 GB. The actual package counts/durations differ from the upstream README;
+`multidialog/audit.json` records both values without silently replacing the source documentation.
+
+The **default cohort is 7,672 clips / 353 complete dialogues / 13.0958 hours**, requiring both actors on the
+authors' gold list and whole-dialogue text/duration QC. It contains 7,319 targets with past turns. Source-only
+inspection found implausible segmentation; 27 trigger clips exclude nine entire dialogues from QC cohorts,
+while every source WAV and label remains intact. Rules and exact IDs are frozen in `qc_exclusions.csv`,
+`excluded_dialogues.csv` and `cohort_ids.json`. This is structural/duration plausibility screening, not a
+complete per-clip listening or semantic-alignment validation. Actors perform TopicalChat scripts with intended
+emotions; the gold actor subset is not a separate listener-consensus label for every clip. Turn order is
+published, but JSONL has no physical start/end timestamps. See `multidialog/README.md` for all limits.
+
+The current official card/API declare CC BY-NC 4.0 with public, ungated access. Original recordings and JSONL
+are unchanged; attribution, source revision, licence text and notices of added indexes/QC are included.
+The legacy loader's Apache code notice is retained and is not used to relicense the audio. Only free file
+downloads were used, with no model inference, paid compute or subscription.
+
+After updating the main project's pinned data submodule, restore and verify without a hub login:
+
+```bash
+python3 emotion_recognition/data/download.py multidialog
+python3 emotion_recognition/data/download.py multidialog --verify-only
+python3 emotion_recognition/data/multidialog/review_dataset.py
+```
+
+In a standalone data-repository clone, run `git pull --ff-only` and `python3 download.py multidialog`.
+The manifest pins every file and archive part with SHA-256. Git contains metadata only; all WAVs, including
+those excluded from the default cohort, are restored from Release assets. New assets append to the existing
+Release without replacing old assets. Downloading does not start a baseline or change an existing result.
 
 ## Company HTTPS certificates
 

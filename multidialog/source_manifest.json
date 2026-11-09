@@ -1,0 +1,54 @@
+{
+  "repository": "IVLLab/MultiDialog",
+  "revision": "49a79605cf7f07c94f5d6f12ebddfed0be5e7986",
+  "license": "CC BY-NC 4.0",
+  "source_url": "https://huggingface.co/datasets/IVLLab/MultiDialog",
+  "paper_url": "https://aclanthology.org/2024.acl-long.860/",
+  "gated": false,
+  "scope": "test_freq and test_rare only",
+  "download_type": "free public repository file download; no inference or paid service",
+  "files": [
+    {
+      "path": "README.md",
+      "size": 5482,
+      "sha256": "d0a9ae38b9918da374d83709af5e5e6a335f99e520b5986ef8df2e5f2060b6c1",
+      "official_lfs_sha256": null,
+      "verified": true
+    },
+    {
+      "path": "MultiDialog.py",
+      "size": 9440,
+      "sha256": "5a4a8e51a24b45a82d69e09810a3059484de4f466557564961aa4dd9ea1cc308",
+      "official_lfs_sha256": null,
+      "verified": true
+    },
+    {
+      "path": "metadata/test_freq/test_freq_metadata_0000.jsonl",
+      "size": 4359014,
+      "sha256": "61173bb842c4424ee11687fc7c3172681b2eb3448f4c1ad187423854f29f163b",
+      "official_lfs_sha256": "61173bb842c4424ee11687fc7c3172681b2eb3448f4c1ad187423854f29f163b",
+      "verified": true
+    },
+    {
+      "path": "metadata/test_rare/test_rare_metadata_0000.jsonl",
+      "size": 3699801,
+      "sha256": "5b64c36180ce08721da871cc2260c453452d1e120b82423b4453a6da0dbb7483",
+      "official_lfs_sha256": "5b64c36180ce08721da871cc2260c453452d1e120b82423b4453a6da0dbb7483",
+      "verified": true
+    },
+    {
+      "path": "data/test_freq/test_freq_chunks_0000.tar.gz",
+      "size": 1825122123,
+      "sha256": "7ec5284759faa7170a304356f3c7869e548d3543a4e194e32e52d28f5af01110",
+      "official_lfs_sha256": "7ec5284759faa7170a304356f3c7869e548d3543a4e194e32e52d28f5af01110",
+      "verified": true
+    },
+    {
+      "path": "data/test_rare/test_rare_chunks_0000.tar.gz",
+      "size": 1468689271,
+      "sha256": "84cab27c5bf744692612b17b17e4be175164d083bb9c8e2e17fb1f5067c25bc7",
+      "official_lfs_sha256": "84cab27c5bf744692612b17b17e4be175164d083bb9c8e2e17fb1f5067c25bc7",
+      "verified": true
+    }
+  ]
+}

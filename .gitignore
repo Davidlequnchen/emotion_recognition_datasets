@@ -2480,3 +2480,22 @@
 !/emotiontalk/source_manifest.json
 !/emotiontalk/upstream/HF_README.md
 !/emotiontalk/utterances.csv
+
+# MultiDialog metadata/QC; all original WAVs, including excluded dialogues, stay in Release.
+!/multidialog/LICENSE-CC-BY-NC-4.0.txt
+!/multidialog/LICENSE_REVIEW.json
+!/multidialog/README.md
+!/multidialog/audit.json
+!/multidialog/cohort_ids.json
+!/multidialog/dialogues.csv
+!/multidialog/excluded_dialogues.csv
+!/multidialog/pilot_examples.json
+!/multidialog/qc_exclusions.csv
+!/multidialog/review_dataset.py
+!/multidialog/source_manifest.json
+!/multidialog/training_review.json
+!/multidialog/upstream/HF_README.md
+!/multidialog/upstream/MultiDialog.py
+!/multidialog/upstream/metadata/test_freq/test_freq_metadata_0000.jsonl
+!/multidialog/upstream/metadata/test_rare/test_rare_metadata_0000.jsonl
+!/multidialog/utterances.csv

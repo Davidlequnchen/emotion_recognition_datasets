@@ -1,0 +1,345 @@
+{
+  "dataset": "MultiDialog",
+  "audited_date": "2026-11-10",
+  "source": {
+    "repository": "IVLLab/MultiDialog",
+    "revision": "49a79605cf7f07c94f5d6f12ebddfed0be5e7986",
+    "license": "CC BY-NC 4.0",
+    "source_url": "https://huggingface.co/datasets/IVLLab/MultiDialog",
+    "paper_url": "https://aclanthology.org/2024.acl-long.860/",
+    "gated": false,
+    "scope": "test_freq and test_rare only",
+    "download_type": "free public repository file download; no inference or paid service",
+    "files": [
+      {
+        "path": "README.md",
+        "size": 5482,
+        "sha256": "d0a9ae38b9918da374d83709af5e5e6a335f99e520b5986ef8df2e5f2060b6c1",
+        "official_lfs_sha256": null,
+        "verified": true
+      },
+      {
+        "path": "MultiDialog.py",
+        "size": 9440,
+        "sha256": "5a4a8e51a24b45a82d69e09810a3059484de4f466557564961aa4dd9ea1cc308",
+        "official_lfs_sha256": null,
+        "verified": true
+      },
+      {
+        "path": "metadata/test_freq/test_freq_metadata_0000.jsonl",
+        "size": 4359014,
+        "sha256": "61173bb842c4424ee11687fc7c3172681b2eb3448f4c1ad187423854f29f163b",
+        "official_lfs_sha256": "61173bb842c4424ee11687fc7c3172681b2eb3448f4c1ad187423854f29f163b",
+        "verified": true
+      },
+      {
+        "path": "metadata/test_rare/test_rare_metadata_0000.jsonl",
+        "size": 3699801,
+        "sha256": "5b64c36180ce08721da871cc2260c453452d1e120b82423b4453a6da0dbb7483",
+        "official_lfs_sha256": "5b64c36180ce08721da871cc2260c453452d1e120b82423b4453a6da0dbb7483",
+        "verified": true
+      },
+      {
+        "path": "data/test_freq/test_freq_chunks_0000.tar.gz",
+        "size": 1825122123,
+        "sha256": "7ec5284759faa7170a304356f3c7869e548d3543a4e194e32e52d28f5af01110",
+        "official_lfs_sha256": "7ec5284759faa7170a304356f3c7869e548d3543a4e194e32e52d28f5af01110",
+        "verified": true
+      },
+      {
+        "path": "data/test_rare/test_rare_chunks_0000.tar.gz",
+        "size": 1468689271,
+        "sha256": "84cab27c5bf744692612b17b17e4be175164d083bb9c8e2e17fb1f5067c25bc7",
+        "official_lfs_sha256": "84cab27c5bf744692612b17b17e4be175164d083bb9c8e2e17fb1f5067c25bc7",
+        "verified": true
+      }
+    ]
+  },
+  "retained_splits": [
+    "test_freq",
+    "test_rare"
+  ],
+  "metadata_rows": 18141,
+  "wav_count": 18141,
+  "dialogues": 831,
+  "audio_bytes": 3733860512,
+  "audio_seconds": 116638.92231250048,
+  "audio_hours": 32.399700642361246,
+  "formats": [
+    {
+      "sample_rate": 16000,
+      "channels": 1,
+      "sample_width_bytes": 2,
+      "clips": 18141
+    }
+  ],
+  "split_stats": {
+    "test_freq": {
+      "metadata_rows": 9810,
+      "wav_count": 9810,
+      "dialogues": 450,
+      "seconds": 64590.38350000029,
+      "raw_emotion_counts": {
+        "Neutral": 2424,
+        "Curious to dive deeper": 4574,
+        "Disgusted": 120,
+        "Happy": 1329,
+        "Surprised": 1176,
+        "Fearful": 25,
+        "Sad": 107,
+        "Angry": 55
+      },
+      "emotion_counts": {
+        "neutral": 6998,
+        "disgusted": 120,
+        "happy": 1329,
+        "surprised": 1176,
+        "fearful": 25,
+        "sad": 107,
+        "angry": 55
+      },
+      "speaker_counts": {
+        "k": 1009,
+        "l": 943,
+        "g": 995,
+        "c": 941,
+        "i": 1012,
+        "f": 947,
+        "e": 1020,
+        "d": 959,
+        "b": 11,
+        "a": 10,
+        "j": 1013,
+        "h": 950
+      },
+      "gold_actor_targets": 6958,
+      "gold_both_clips": 3916,
+      "gold_both_dialogues": 180,
+      "gold_both_seconds": 25466.285562499954,
+      "gold_both_emotion_counts": {
+        "neutral": 2880,
+        "happy": 458,
+        "surprised": 456,
+        "sad": 41,
+        "angry": 20,
+        "disgusted": 51,
+        "fearful": 10
+      },
+      "context_targets": 3736,
+      "default_baseline_clips": 3808,
+      "default_baseline_dialogues": 175,
+      "default_baseline_seconds": 24423.213562499932,
+      "default_baseline_emotion_counts": {
+        "neutral": 2795,
+        "happy": 444,
+        "surprised": 450,
+        "sad": 41,
+        "angry": 19,
+        "disgusted": 49,
+        "fearful": 10
+      },
+      "default_context_targets": 3633
+    },
+    "test_rare": {
+      "metadata_rows": 8331,
+      "wav_count": 8331,
+      "dialogues": 381,
+      "seconds": 52048.53881250004,
+      "raw_emotion_counts": {
+        "Neutral": 1771,
+        "Surprised": 1452,
+        "Curious to dive deeper": 3451,
+        "Happy": 1470,
+        "Disgusted": 46,
+        "Angry": 27,
+        "Sad": 88,
+        "Fearful": 26
+      },
+      "emotion_counts": {
+        "neutral": 5222,
+        "surprised": 1452,
+        "happy": 1470,
+        "disgusted": 46,
+        "angry": 27,
+        "sad": 88,
+        "fearful": 26
+      },
+      "speaker_counts": {
+        "k": 1011,
+        "l": 948,
+        "j": 242,
+        "h": 225,
+        "i": 1012,
+        "f": 943,
+        "g": 997,
+        "c": 933,
+        "e": 1040,
+        "d": 980
+      },
+      "gold_actor_targets": 6178,
+      "gold_both_clips": 3885,
+      "gold_both_dialogues": 179,
+      "gold_both_seconds": 22883.159499999983,
+      "gold_both_emotion_counts": {
+        "neutral": 2496,
+        "happy": 628,
+        "surprised": 667,
+        "disgusted": 20,
+        "angry": 16,
+        "sad": 42,
+        "fearful": 16
+      },
+      "context_targets": 3706,
+      "default_baseline_clips": 3864,
+      "default_baseline_dialogues": 178,
+      "default_baseline_seconds": 22721.794312499984,
+      "default_baseline_emotion_counts": {
+        "neutral": 2489,
+        "happy": 620,
+        "surprised": 663,
+        "disgusted": 18,
+        "angry": 16,
+        "sad": 42,
+        "fearful": 16
+      },
+      "default_context_targets": 3686
+    }
+  },
+  "gold_actor_ids": [
+    "a",
+    "b",
+    "c",
+    "e",
+    "f",
+    "g",
+    "i",
+    "j",
+    "k"
+  ],
+  "default_cohort": "gold_both",
+  "baseline_clips": 7672,
+  "baseline_dialogues": 353,
+  "context_targets": 7319,
+  "incomplete_dialogues": [],
+  "unknown_or_invalid_rows": [],
+  "missing_audio": [],
+  "unreferenced_wavs": [],
+  "duplicate_audio_references": {},
+  "byte_identical_wav_groups": [],
+  "unexpected_archive_members": [],
+  "cross_split_dialogue_overlap": [],
+  "issues": [],
+  "label_definition": "TopicalChat script emotions performed by actors. Curious to dive deeper maps to neutral, following paper section3.2. Not per-utterance multi-listener emotion consensus.",
+  "quality_subset_definition": "Official gold actor IDs selected from a small actor-level perception check. Default gold_both keeps complete dialogues where both actors are in this list; actor selection does not convert every utterance into listener-voted gold.",
+  "history_definition": "Earlier published utterance indices in the same dialogue/split; sorted by turn_index. No start/end timestamps in released JSONL, so physical overlap was not verified.",
+  "known_upstream_differences": [
+    "README test_freq reports9811 utterances; pinned metadata has9810. Report actual archive/metadata counts separately.",
+    "Legacy loader Apache2.0 string is inconsistent with current dataset card CC BY-NC4.0; do not relicense audio as Apache2.0.",
+    "Raw metadata retains eight strings despite seven canonical recording labels."
+  ],
+  "duration_summaries": {
+    "all": {
+      "clips": 18141,
+      "min_s": 0.128,
+      "median_s": 5.8666875,
+      "max_s": 298.432,
+      "over15": 357,
+      "over30": 3,
+      "hours": 32.39970064236131
+    },
+    "gold_both": {
+      "clips": 7801,
+      "min_s": 0.128,
+      "median_s": 5.632,
+      "max_s": 298.432,
+      "over15": 117,
+      "over30": 3,
+      "hours": 13.430401406249986
+    },
+    "gold_both_qc": {
+      "clips": 7672,
+      "max_s": 26.24,
+      "min_s": 0.6186875,
+      "over15": 108,
+      "over30": 0,
+      "hours": 13.095835520833337
+    }
+  },
+  "status": "pass_with_qc_limited_controlled_cohort",
+  "retained_audio_format": "16 kHz mono PCM16; full WAV payloads checked",
+  "no_inference_run": true,
+  "qc": {
+    "rule_version": "2026-11-10-v1",
+    "word_pattern": "[A-Za-z0-9]+(?:'[A-Za-z]+)?",
+    "rules": [
+      "word_count>=6 and words_per_second>8",
+      "duration_s>30 and words_per_second<0.6"
+    ],
+    "exclusion_unit": "entire dialogue; source files retained unchanged",
+    "rule_timing": "Frozen after source-only plausibility inspection and before any model inference; not claimed to be preregistered before observing the source.",
+    "flagged_clips": 27,
+    "excluded_dialogues": 9,
+    "excluded_raw_clips": 192,
+    "excluded_gold_both_clips": 129,
+    "excluded_gold_both_dialogues": 6,
+    "reasons_by_dialogue": {
+      "t_1006c900-d5e2-4aeb-8d01-dd6a65ae6fa9": [
+        "long_audio_sparse_transcript"
+      ],
+      "t_36066ee7-42fb-413c-bce1-25a6933b938a": [
+        "implausibly_fast_text_audio"
+      ],
+      "t_505acccf-73ec-4dca-beaa-06e5f299e638": [
+        "long_audio_sparse_transcript"
+      ],
+      "t_57041535-b94c-4ccf-a27a-49031ab26bf3": [
+        "implausibly_fast_text_audio"
+      ],
+      "t_585ce67f-8494-49ca-9efc-9c855b08ecd0": [
+        "implausibly_fast_text_audio"
+      ],
+      "t_a08aa238-fa2c-4ba0-9b41-79abd4513b26": [
+        "implausibly_fast_text_audio"
+      ],
+      "t_cf0ebbf8-7f17-4546-9943-90c4315db6ff": [
+        "implausibly_fast_text_audio"
+      ],
+      "t_cfd71db7-9e8c-423c-aa79-c71873591b2f": [
+        "long_audio_sparse_transcript"
+      ],
+      "t_d98ba5de-8ce1-4853-b1d4-e8482981f673": [
+        "implausibly_fast_text_audio"
+      ]
+    },
+    "interpretation": "Audio/text duration plausibility screening, not complete semantic alignment or fresh listener-label validation. Short long-text clips strongly indicate segmentation/alignment problems. Long sparse-transcript clips are conservatively excluded; cause unresolved. RMS did not support describing them as pure trailing silence.",
+    "default_cohort_sha256": "3c7871f12b3259fbf685a3c26dff562b953db7c9a34400f0c7ce19a134911e77",
+    "retained_gold_both_clip_fraction": 0.9834636585053198,
+    "retained_gold_both_dialogue_fraction": 0.9832869080779945
+  },
+  "baseline_audio_hours": 13.095835520833337,
+  "baseline_emotion_counts": {
+    "neutral": 5284,
+    "happy": 1064,
+    "surprised": 1113,
+    "sad": 83,
+    "angry": 35,
+    "disgusted": 67,
+    "fearful": 26
+  },
+  "baseline_speaker_counts": {
+    "g": 1937,
+    "c": 1822,
+    "i": 2013,
+    "f": 1879,
+    "b": 11,
+    "a": 10
+  },
+  "baseline_speaker_ids": [
+    "a",
+    "b",
+    "c",
+    "f",
+    "g",
+    "i"
+  ]
+}
