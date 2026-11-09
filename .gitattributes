@@ -1,0 +1,2 @@
+# Keep source metadata and small test clips byte for byte; Git LFS is not used.
+* -filter -text
