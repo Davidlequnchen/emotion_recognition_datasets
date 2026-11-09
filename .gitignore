@@ -2452,3 +2452,19 @@
 !/thai_ser/SHA256SUMS
 !/thai_ser/labels.csv
 !/tls.py
+
+# DailyTalk retained-pilot metadata; bulk audio stays in Release assets.
+!/dailytalk/README.md
+!/dailytalk/audit.json
+!/dailytalk/dialogues.csv
+!/dailytalk/metadata.json
+!/dailytalk/pilot_examples.json
+!/dailytalk/upstream/DailyTalk_README.md
+!/dailytalk/upstream/ECSS_LICENSE
+!/dailytalk/upstream/ECSS_README.md
+!/dailytalk/upstream/ECSS_dataset.py
+!/dailytalk/upstream/ecss_emotions.json
+!/dailytalk/upstream/ecss_train_frame.txt
+!/dailytalk/upstream/ecss_val_frame.txt
+!/dailytalk/upstream/source_metadata.json
+!/dailytalk/utterances.csv

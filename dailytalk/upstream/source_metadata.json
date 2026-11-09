@@ -1,0 +1,56 @@
+{
+  "repositories": {
+    "keonlee9420/DailyTalk": {
+      "commit": "05a0173dac8e68fb2b22190cfc5c22248538a1a6",
+      "url": "https://github.com/keonlee9420/DailyTalk/tree/05a0173dac8e68fb2b22190cfc5c22248538a1a6"
+    },
+    "walker-hyf/ECSS": {
+      "commit": "c1545fdb12ca56482de4ff3550dc47b81d9fe794",
+      "url": "https://github.com/walker-hyf/ECSS/tree/c1545fdb12ca56482de4ff3550dc47b81d9fe794"
+    }
+  },
+  "files": [
+    {
+      "source": "https://raw.githubusercontent.com/keonlee9420/DailyTalk/05a0173dac8e68fb2b22190cfc5c22248538a1a6/README.md",
+      "destination": "DailyTalk_README.md",
+      "size": 7282,
+      "sha256": "807de39e6f9d4e94a271793e0660c89974bab0c5a4bcc3182cedb95856a6485f"
+    },
+    {
+      "source": "https://raw.githubusercontent.com/walker-hyf/ECSS/c1545fdb12ca56482de4ff3550dc47b81d9fe794/README.md",
+      "destination": "ECSS_README.md",
+      "size": 2999,
+      "sha256": "8354f1dfa3a61d35621c8c6e11c73ae05c85e7477c59470c3376782eb1b483ce"
+    },
+    {
+      "source": "https://raw.githubusercontent.com/walker-hyf/ECSS/c1545fdb12ca56482de4ff3550dc47b81d9fe794/LICENSE",
+      "destination": "ECSS_LICENSE",
+      "size": 1065,
+      "sha256": "2a6de1d408b131abe97fd0808afd9a345e8d20b2a47a338af6489e0d48d5ea3b"
+    },
+    {
+      "source": "https://raw.githubusercontent.com/walker-hyf/ECSS/c1545fdb12ca56482de4ff3550dc47b81d9fe794/dataset.py",
+      "destination": "ECSS_dataset.py",
+      "size": 26112,
+      "sha256": "5ed291fb0021af8f9c2f0394cb2cf0ca545e3768d59ad43ab216a0358d86f08e"
+    },
+    {
+      "source": "https://raw.githubusercontent.com/walker-hyf/ECSS/c1545fdb12ca56482de4ff3550dc47b81d9fe794/preprocessed_data/DailyTalk/train_frame.txt",
+      "destination": "ecss_train_frame.txt",
+      "size": 3425733,
+      "sha256": "b966cde792d8fd70645ceae0dbbe38e5ebb21dcf38d7adfc9516b7efb636277a"
+    },
+    {
+      "source": "https://raw.githubusercontent.com/walker-hyf/ECSS/c1545fdb12ca56482de4ff3550dc47b81d9fe794/preprocessed_data/DailyTalk/val_frame.txt",
+      "destination": "ecss_val_frame.txt",
+      "size": 182525,
+      "sha256": "940188ecf269daac29dc9665fbeee9f21a41ae875b9e134b010d80f1e504d998"
+    },
+    {
+      "source": "https://raw.githubusercontent.com/walker-hyf/ECSS/c1545fdb12ca56482de4ff3550dc47b81d9fe794/preprocessed_data/DailyTalk/emotions.json",
+      "destination": "ecss_emotions.json",
+      "size": 93,
+      "sha256": "c10fa866dda3d312f7b8e1cb9a8e276b100d8ddcd695fa86b70f59fc39b71d68"
+    }
+  ]
+}

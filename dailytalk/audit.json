@@ -1,0 +1,1431 @@
+{
+  "schema_version": 1,
+  "candidate": "DailyTalk",
+  "audited_date": "2026-11-09",
+  "status": "pass_with_documented_warnings",
+  "archive": {
+    "source": "https://drive.google.com/drive/folders/1WRt-EprWs-2rmYxoWYT9_13omlhDHcaL",
+    "file_id": "1nPrfJn3TcIVPc0Uf5tiAXUYLJceb_5k-",
+    "size": 5341371062,
+    "sha256": "fb68b1bb80c3177b62f0d206686a566e52ece738a57932321747b868bef3a6ea",
+    "crc": "all members passed"
+  },
+  "audio": {
+    "clips": 23773,
+    "dialogues": 2541,
+    "speakers": [
+      0,
+      1
+    ],
+    "sample_rates": {
+      "44100": 23773
+    },
+    "channels": {
+      "1": 23720,
+      "2": 53
+    },
+    "sample_width_bytes": {
+      "2": 23773
+    },
+    "seconds": 78026.32773242594,
+    "hours": 21.673979925673873,
+    "min_seconds": 0.5056462585034014,
+    "median_seconds": 2.910498866213152,
+    "max_seconds": 17.836689342403627,
+    "bytes": 6899868374,
+    "wav_validation": "all PCM frames read and payload length matched header",
+    "stereo_audio_ids": [
+      "0_0_d358",
+      "1_1_d358",
+      "2_0_d358",
+      "3_1_d358",
+      "4_0_d358",
+      "5_1_d358",
+      "6_0_d358",
+      "0_0_d948",
+      "1_1_d948",
+      "2_0_d948",
+      "3_1_d948",
+      "4_0_d948",
+      "5_1_d948",
+      "6_0_d948",
+      "0_0_d1584",
+      "1_1_d1584",
+      "2_0_d1584",
+      "3_1_d1584",
+      "0_0_d1698",
+      "1_1_d1698",
+      "2_0_d1698",
+      "3_1_d1698",
+      "4_0_d1698",
+      "5_1_d1698",
+      "6_0_d1698",
+      "0_1_d1813",
+      "1_0_d1813",
+      "2_1_d1813",
+      "3_0_d1813",
+      "4_1_d1813",
+      "5_0_d1813",
+      "6_1_d1813",
+      "0_1_d1875",
+      "1_0_d1875",
+      "2_1_d1875",
+      "3_0_d1875",
+      "4_1_d1875",
+      "5_0_d1875",
+      "6_1_d1875",
+      "0_1_d2337",
+      "1_0_d2337",
+      "2_1_d2337",
+      "3_0_d2337",
+      "4_1_d2337",
+      "5_0_d2337",
+      "6_1_d2337",
+      "0_1_d2369",
+      "1_0_d2369",
+      "2_1_d2369",
+      "3_0_d2369",
+      "4_1_d2369",
+      "5_0_d2369",
+      "6_1_d2369"
+    ]
+  },
+  "dialogues": {
+    "minimum_turns": 5,
+    "maximum_turns": 20,
+    "contiguous_zero_based_turns": true
+  },
+  "labels": {
+    "original_source": "DailyDialog text annotations inherited by DailyTalk; not independent voice-only perception votes",
+    "original_counts": {
+      "no emotion": 18966,
+      "happiness": 3856,
+      "surprise": 407,
+      "sadness": 301,
+      "disgust": 66,
+      "anger": 159,
+      "fear": 18
+    },
+    "ecss_source": "Public ECSS frame files at commit c1545fdb12ca56482de4ff3550dc47b81d9fe794; paper describes professional listening/semantic reannotation",
+    "ecss_records": 23759,
+    "ecss_counts": {
+      "none": 18952,
+      "happiness": 3856,
+      "surprise": 407,
+      "sadness": 301,
+      "disgust": 66,
+      "anger": 159,
+      "fear": 18
+    },
+    "ecss_neutral_fraction": 0.797676669893514,
+    "ecss_duplicate_ids": [],
+    "ecss_complete_dialogues": 2540,
+    "missing_ecss": [
+      {
+        "id": "0_1_d175",
+        "dialogue": 175,
+        "turn": 0,
+        "original_emotion": "no emotion"
+      },
+      {
+        "id": "1_0_d175",
+        "dialogue": 175,
+        "turn": 1,
+        "original_emotion": "no emotion"
+      },
+      {
+        "id": "2_1_d175",
+        "dialogue": 175,
+        "turn": 2,
+        "original_emotion": "no emotion"
+      },
+      {
+        "id": "3_0_d175",
+        "dialogue": 175,
+        "turn": 3,
+        "original_emotion": "no emotion"
+      },
+      {
+        "id": "4_1_d175",
+        "dialogue": 175,
+        "turn": 4,
+        "original_emotion": "no emotion"
+      },
+      {
+        "id": "5_0_d175",
+        "dialogue": 175,
+        "turn": 5,
+        "original_emotion": "no emotion"
+      },
+      {
+        "id": "6_1_d175",
+        "dialogue": 175,
+        "turn": 6,
+        "original_emotion": "no emotion"
+      },
+      {
+        "id": "7_0_d175",
+        "dialogue": 175,
+        "turn": 7,
+        "original_emotion": "no emotion"
+      },
+      {
+        "id": "8_1_d175",
+        "dialogue": 175,
+        "turn": 8,
+        "original_emotion": "no emotion"
+      },
+      {
+        "id": "9_0_d175",
+        "dialogue": 175,
+        "turn": 9,
+        "original_emotion": "no emotion"
+      },
+      {
+        "id": "10_1_d175",
+        "dialogue": 175,
+        "turn": 10,
+        "original_emotion": "no emotion"
+      },
+      {
+        "id": "11_0_d175",
+        "dialogue": 175,
+        "turn": 11,
+        "original_emotion": "no emotion"
+      },
+      {
+        "id": "12_1_d175",
+        "dialogue": 175,
+        "turn": 12,
+        "original_emotion": "no emotion"
+      },
+      {
+        "id": "13_0_d175",
+        "dialogue": 175,
+        "turn": 13,
+        "original_emotion": "no emotion"
+      }
+    ],
+    "extra_ecss_ids": [],
+    "category_differences_from_original": [],
+    "caution": "If category differences are empty, public ECSS categories add no distinct target labels over original metadata on matched IDs; intensity is additional. No fresh human validation was performed.",
+    "ecss_category_matches_original_on_every_matched_id": true,
+    "public_version_caution": "All 23,759 publicly released ECSS categorical labels equal the inherited DailyTalk categories after no emotion->none normalization. Do not present them as an empirically distinct independent audio-perception category gold set; intensity is additional."
+  },
+  "checks": {
+    "errors": [],
+    "extra_audio": [],
+    "metadata_txt_mismatches": [
+      {
+        "id": "0_1_d905",
+        "metadata": "Good morning, Room Service. May I help you ?",
+        "txt": "Good morning, Room Service. May I help you?"
+      },
+      {
+        "id": "2_1_d905",
+        "metadata": "OK, sir. We offer two types of lunch, Chinese food and western food. Which one would you prefer ?",
+        "txt": "OK, sir. We offer two types of lunch, Chinese food and western food. Which one would you prefer?"
+      },
+      {
+        "id": "3_0_d905",
+        "metadata": "What does a Chinese food have ?",
+        "txt": "What does a Chinese food have?"
+      },
+      {
+        "id": "6_1_d905",
+        "metadata": "Umm…. I see. May I have your name and room number, please ?",
+        "txt": "Umm…. I see. May I have your name and room number, please?"
+      },
+      {
+        "id": "7_0_d905",
+        "metadata": "Sure, it's White in Room 204.",
+        "txt": "Sure, it's White in Room two-o-four."
+      },
+      {
+        "id": "8_1_d905",
+        "metadata": "Let me confirm your order, Mr. White in Room 204, Chinese food. Is that right ?",
+        "txt": "Let me confirm your order, Mr. White in Room two-o-four, Chinese food. Is that right?"
+      },
+      {
+        "id": "0_1_d1396",
+        "metadata": "Yes, sir.May I help you?",
+        "txt": "Yes, sir. May I help you?"
+      },
+      {
+        "id": "0_0_d2033",
+        "metadata": "What ’ s your new job like?",
+        "txt": "What’s your new job like?"
+      }
+    ],
+    "ecss_text_normalized_mismatches": [
+      {
+        "id": "5_1_d2",
+        "original": "I'd like to talk to Mr. Edna Kent.",
+        "ecss": "i'd like to talk to mister edna kent."
+      },
+      {
+        "id": "6_0_d2",
+        "original": "Is that Mr. Edna Kent?",
+        "ecss": "is that mister edna kent?"
+      },
+      {
+        "id": "0_0_d7",
+        "original": "Hello? This is John Smith. Can I speak to Mrs. White, please?",
+        "ecss": "hello? this is john smith. can i speak to misess white, please?"
+      },
+      {
+        "id": "1_1_d7",
+        "original": "This is Mrs. White speaking.",
+        "ecss": "this is misess white speaking."
+      },
+      {
+        "id": "7_0_d13",
+        "original": "Let's take a walk for a half an hour. My sister will get here at about 8: 30PM and then we can all go out to dinner.",
+        "ecss": "let's take a walk for a half an hour. my sister will get here at about eight: thirtypm and then we can all go out to dinner."
+      },
+      {
+        "id": "1_0_d54",
+        "original": "Hello, is this four-four-eight-two-zero-nine-eight-seven? I'd like to speak to Mr. Doff.",
+        "ecss": "hello, is this four-four-eight-two-zero-nine-eight-seven? i'd like to speak to mister doff."
+      },
+      {
+        "id": "2_1_d54",
+        "original": "I am sorry. Mr. Doff is out right now.",
+        "ecss": "i am sorry. mister doff is out right now."
+      },
+      {
+        "id": "5_0_d54",
+        "original": "Thanks, Mrs. Doff. Please tell him to be at the airport at three p.m.",
+        "ecss": "thanks, misess doff. please tell him to be at the airport at three p.m."
+      },
+      {
+        "id": "5_0_d55",
+        "original": "We have an appointment for this afternoon. Mr.Chen will know why I'm calling.",
+        "ecss": "we have an appointment for this afternoon. misterchen will know why i'm calling."
+      },
+      {
+        "id": "6_1_d55",
+        "original": "Of course, Please hold the line Mr. Hunter.",
+        "ecss": "of course, please hold the line mister hunter."
+      },
+      {
+        "id": "2_1_d95",
+        "original": "Thank you. What's your occupation, Mr. Smith?",
+        "ecss": "thank you. what's your occupation, mister smith?"
+      },
+      {
+        "id": "1_1_d134",
+        "original": "Yes, are you Mr. James?",
+        "ecss": "yes, are you mister james?"
+      },
+      {
+        "id": "16_0_d146",
+        "original": "Very good. It's been a pleasure to do business with you, Mr. Smith.",
+        "ecss": "very good. it's been a pleasure to do business with you, mister smith."
+      },
+      {
+        "id": "1_0_d163",
+        "original": "This is Mr. Brown speaking. I'd like to speak to Mr. Thomas, please.",
+        "ecss": "this is mister brown speaking. i'd like to speak to mister thomas, please."
+      },
+      {
+        "id": "2_1_d163",
+        "original": "I'm sorry, but Mr. Thomas left the office a few minutes ago.",
+        "ecss": "i'm sorry, but mister thomas left the office a few minutes ago."
+      },
+      {
+        "id": "10_1_d163",
+        "original": "I see. I can tell Mr. Thomas that you phoned.",
+        "ecss": "i see. i can tell mister thomas that you phoned."
+      },
+      {
+        "id": "0_0_d177",
+        "original": "Can I give you a lift home, Mrs. Word?",
+        "ecss": "can i give you a lift home, misess word?"
+      },
+      {
+        "id": "1_1_d177",
+        "original": "That is very kind of you, Mr. Lee. Thank you.",
+        "ecss": "that is very kind of you, mister lee. thank you."
+      },
+      {
+        "id": "7_1_d224",
+        "original": "I guess you could say that. Eating fruit and vegetables helps keep you healthy. I've lost 5 pounds and I feel great!",
+        "ecss": "i guess you could say that. eating fruit and vegetables helps keep you healthy. i've lost five pounds and i feel great!"
+      },
+      {
+        "id": "0_1_d227",
+        "original": "May I speak to Mr. Baker?",
+        "ecss": "may i speak to mister baker?"
+      },
+      {
+        "id": "1_1_d232",
+        "original": "I'd like to make a person-to-person call to Beijing, China. The number is two one three five three six seven eight. I want to speak to Mr. Zhang.",
+        "ecss": "i'd like to make a person-to-person call to beijing, china. the number is two one three five three six seven eight. i want to speak to mister zhang."
+      },
+      {
+        "id": "2_0_d232",
+        "original": "To Mr. Zhang in at two one three five three six seven eight?",
+        "ecss": "to mister zhang in at two one three five three six seven eight?"
+      },
+      {
+        "id": "3_0_d274",
+        "original": "( Pause a few seconds ) Umm they say Mr. Chen is an honest, hardworking and responsible man who deeply cares for his family and friends.",
+        "ecss": "( pause a few seconds ) umm they say mister chen is an honest, hardworking and responsible man who deeply cares for his family and friends."
+      },
+      {
+        "id": "9_1_d284",
+        "original": "May I have a look at your room card, Mr. Black?",
+        "ecss": "may i have a look at your room card, mister black?"
+      },
+      {
+        "id": "2_1_d290",
+        "original": "Leaving on September fifth and returning to New York City on October 9th.",
+        "ecss": "leaving on september fifth and returning to new york city on october ninth."
+      },
+      {
+        "id": "0_1_d293",
+        "original": "Now you're my boss, Mr. Henry.",
+        "ecss": "now you're my boss, mister henry."
+      },
+      {
+        "id": "0_1_d331",
+        "original": "Mr. Ludlow, hello. It's good to see you again. What can we do for you today?",
+        "ecss": "mister ludlow, hello. it's good to see you again. what can we do for you today?"
+      },
+      {
+        "id": "5_0_d337",
+        "original": "China beat Brazil 3 to 0.",
+        "ecss": "china beat brazil three to zero."
+      },
+      {
+        "id": "1_1_d350",
+        "original": "May I see your ID, please, Mr. Sandals?",
+        "ecss": "may i see your id, please, mister sandals?"
+      },
+      {
+        "id": "3_1_d350",
+        "original": "Thank you. Do you have a credit card, Mr. Sandals?",
+        "ecss": "thank you. do you have a credit card, mister sandals?"
+      },
+      {
+        "id": "4_1_d359",
+        "original": "Can I take a message, Mr. Laing?",
+        "ecss": "can i take a message, mister laing?"
+      },
+      {
+        "id": "1_1_d386",
+        "original": "Of course, Mr. Green.",
+        "ecss": "of course, mister green."
+      },
+      {
+        "id": "0_1_d425",
+        "original": "Hi, Mr. Smith. what's new?",
+        "ecss": "hi, mister smith. what's new?"
+      },
+      {
+        "id": "4_1_d433",
+        "original": "Oh, no. He is not breathing and there’s no pulse. Call 911.",
+        "ecss": "oh, no. he is not breathing and there's no pulse. call nine hundred eleven."
+      },
+      {
+        "id": "0_1_d490",
+        "original": "Excuse me, but are you Mr. Smith from Britain?",
+        "ecss": "excuse me, but are you mister smith from britain?"
+      },
+      {
+        "id": "4_1_d490",
+        "original": "How do you do, Mr. Smith? Let me help you with your luggage.",
+        "ecss": "how do you do, mister smith? let me help you with your luggage."
+      },
+      {
+        "id": "12_1_d490",
+        "original": "Now, Mr. Smith, if all is ready, we'd better start for the hotel.",
+        "ecss": "now, mister smith, if all is ready, we'd better start for the hotel."
+      },
+      {
+        "id": "4_1_d519",
+        "original": "Hold the line, please. Mr. Wood is in the meeting with managing director at the moment I'm afraid. Can I help you?",
+        "ecss": "hold the line, please. mister wood is in the meeting with managing director at the moment i'm afraid. can i help you?"
+      },
+      {
+        "id": "12_1_d519",
+        "original": "OK, you will be hearing from Mr Wood later in the afternoon then, Mr. John.",
+        "ecss": "ok, you will be hearing from mr wood later in the afternoon then, mister john."
+      },
+      {
+        "id": "0_0_d532",
+        "original": "Can I give you a lift home, Mrs. Word?",
+        "ecss": "can i give you a lift home, misess word?"
+      },
+      {
+        "id": "1_1_d532",
+        "original": "That is very kind of you, Mr. Lee. Thank you.",
+        "ecss": "that is very kind of you, mister lee. thank you."
+      },
+      {
+        "id": "6_1_d544",
+        "original": "That's OK, Mr. Li, a double room with bath from the fifth of August to the eighth.",
+        "ecss": "that's ok, mister li, a double room with bath from the fifth of august to the eighth."
+      },
+      {
+        "id": "3_0_d564",
+        "original": "Mr. Rogers probably forgot to assign a locker to you.",
+        "ecss": "mister rogers probably forgot to assign a locker to you."
+      },
+      {
+        "id": "0_1_d580",
+        "original": "Hello, Could you please connect me to Mr. Cook's office? It is on Line Three.",
+        "ecss": "hello, could you please connect me to mister cook's office? it is on line three."
+      },
+      {
+        "id": "5_0_d580",
+        "original": "Mr.Cook is on Line Six. I'll put you through.",
+        "ecss": "mistercook is on line six. i'll put you through."
+      },
+      {
+        "id": "0_1_d589",
+        "original": "Hello, Mr. Black, I'm calling to say goodbye.",
+        "ecss": "hello, mister black, i'm calling to say goodbye."
+      },
+      {
+        "id": "0_1_d591",
+        "original": "Mr. Martin, we're on arrival.",
+        "ecss": "mister martin, we're on arrival."
+      },
+      {
+        "id": "3_1_d651",
+        "original": "Just a minute, sir. Umm are you Mr. Wang from China?",
+        "ecss": "just a minute, sir. umm are you mister wang from china?"
+      },
+      {
+        "id": "5_1_d651",
+        "original": "Mr. Wang, did you sign any bill in the last two hours in our hotel?",
+        "ecss": "mister wang, did you sign any bill in the last two hours in our hotel?"
+      },
+      {
+        "id": "4_0_d653",
+        "original": "And this is the schedule for Mrs. Watson. Eileen from our department will take care of her.",
+        "ecss": "and this is the schedule for misess watson. eileen from our department will take care of her."
+      },
+      {
+        "id": "0_0_d671",
+        "original": "Hello, this is Mr. Simon. May I help you?",
+        "ecss": "hello, this is mister simon. may i help you?"
+      },
+      {
+        "id": "1_1_d686",
+        "original": "Yes. This is Mrs. Davinson. I'd like to reserve a two-room suite for tonight.",
+        "ecss": "yes. this is misess davinson. i'd like to reserve a two-room suite for tonight."
+      },
+      {
+        "id": "3_1_d686",
+        "original": "Mrs. Davinson. Mary Davison. M-A-R-Y, mary. D-A-V-I-N-S-O-N. Davison.",
+        "ecss": "misess davinson. mary davison. m-a-r-y, mary. d-a-v-i-n-s-o-n. davison."
+      },
+      {
+        "id": "0_1_d690",
+        "original": "Mr. Rogers?",
+        "ecss": "mister rogers?"
+      },
+      {
+        "id": "0_0_d700",
+        "original": "Good afternoon, Mrs. Brown. I've come to see Mr. Brown.",
+        "ecss": "good afternoon, misess brown. i've come to see mister brown."
+      },
+      {
+        "id": "1_1_d700",
+        "original": "Good afternoon, Mr. Green.",
+        "ecss": "good afternoon, mister green."
+      },
+      {
+        "id": "0_0_d717",
+        "original": "Hello, I am Mr. Johnson at room three o nine. I would like to have a safe box. Umm do I need to pay for a safe box?",
+        "ecss": "hello, i am mister johnson at room three o nine. i would like to have a safe box. umm do i need to pay for a safe box?"
+      },
+      {
+        "id": "1_1_d728",
+        "original": "Thank you. Good evening, Mr. Dean.",
+        "ecss": "thank you. good evening, mister dean."
+      },
+      {
+        "id": "5_0_d760",
+        "original": "Yes, it's Mr. Brown.",
+        "ecss": "yes, it's mister brown."
+      },
+      {
+        "id": "6_1_d760",
+        "original": "Mr. Brown. We were expecting you. This way, please. Will this table be fine?",
+        "ecss": "mister brown. we were expecting you. this way, please. will this table be fine?"
+      },
+      {
+        "id": "3_1_d785",
+        "original": "Hi, Mr. Sandals. I'm Michelle, at your service. When do you need the room?",
+        "ecss": "hi, mister sandals. i'm michelle, at your service. when do you need the room?"
+      },
+      {
+        "id": "13_1_d785",
+        "original": "Great, Mr. Sandals. Your reservation is confirmed. Now all I need is your phone number.",
+        "ecss": "great, mister sandals. your reservation is confirmed. now all i need is your phone number."
+      },
+      {
+        "id": "15_1_d785",
+        "original": "Thank you so much, Mr. Sandals. We look forward to seeing you!",
+        "ecss": "thank you so much, mister sandals. we look forward to seeing you!"
+      },
+      {
+        "id": "2_1_d814",
+        "original": "Hello, Mr. Hong. What can I do for you?",
+        "ecss": "hello, mister hong. what can i do for you?"
+      },
+      {
+        "id": "0_0_d866",
+        "original": "The principal just announced that Dr. Smith is going to take over as dean of our department.",
+        "ecss": "the principal just announced that doctor smith is going to take over as dean of our department."
+      },
+      {
+        "id": "0_1_d871",
+        "original": "Come and meet our employees, Mr. Richards.",
+        "ecss": "come and meet our employees, mister richards."
+      },
+      {
+        "id": "0_1_d887",
+        "original": "What’s wrong with you, Mr. Polly?",
+        "ecss": "what's wrong with you, mister polly?"
+      },
+      {
+        "id": "6_1_d887",
+        "original": "Sorry, Mr. Polly.",
+        "ecss": "sorry, mister polly."
+      },
+      {
+        "id": "7_0_d905",
+        "original": "Sure, it's White in Room 204.",
+        "ecss": "sure, it's white in room two-o-four."
+      },
+      {
+        "id": "8_1_d905",
+        "original": "Let me confirm your order, Mr. White in Room 204, Chinese food. Is that right ?",
+        "ecss": "let me confirm your order, mister white in room two-o-four, chinese food. is that right?"
+      },
+      {
+        "id": "0_0_d911",
+        "original": "Do you want any meat today, Mrs. Bird?",
+        "ecss": "do you want any meat today, misess bird?"
+      },
+      {
+        "id": "8_0_d911",
+        "original": "Do you want a chicken, Mrs. Bird? They're very nice.",
+        "ecss": "do you want a chicken, misess bird? they're very nice."
+      },
+      {
+        "id": "10_0_d911",
+        "original": "To tell you the truth Mrs. Bird, umm, I don't like chicken, either!",
+        "ecss": "to tell you the truth misess bird, umm, i don't like chicken, either!"
+      },
+      {
+        "id": "0_1_d918",
+        "original": "Good afternoon, Mr. Anderson.",
+        "ecss": "good afternoon, mister anderson."
+      },
+      {
+        "id": "8_1_d918",
+        "original": "Sure, Mr. Anderson, please come along with me.",
+        "ecss": "sure, mister anderson, please come along with me."
+      },
+      {
+        "id": "6_1_d936",
+        "original": "See you later! ( after a while ) Good afternoon, Mr. Smith. I called you just now.",
+        "ecss": "see you later! ( after a while ) good afternoon, mister smith. i called you just now."
+      },
+      {
+        "id": "15_1_d940",
+        "original": "Mr. and Mrs. Ryefield, that's R-Y-E-F-I-E-L-D.",
+        "ecss": "mister and misess ryefield, that's r-y-e-f-i-e-l-d."
+      },
+      {
+        "id": "0_1_d956",
+        "original": "Hi, Mr. Wang. Do you feel like going boating with me?",
+        "ecss": "hi, mister wang. do you feel like going boating with me?"
+      },
+      {
+        "id": "0_1_d1012",
+        "original": "How do you do, Mr. Johnson? I'm Jane.",
+        "ecss": "how do you do, mister johnson? i'm jane."
+      },
+      {
+        "id": "3_1_d1014",
+        "original": "(10 minutes later.) Hi. Here are completed forms.",
+        "ecss": "(ten minutes later.) hi. here are completed forms."
+      },
+      {
+        "id": "1_1_d1065",
+        "original": "Good morning, Mr. Smith.",
+        "ecss": "good morning, mister smith."
+      },
+      {
+        "id": "3_1_d1065",
+        "original": "Well, thank you, Mr. Smith. But I was just doing my job.",
+        "ecss": "well, thank you, mister smith. but i was just doing my job."
+      },
+      {
+        "id": "8_1_d1070",
+        "original": "Oh, thanks, Mr. Kaufman. We look forward to your visit.",
+        "ecss": "oh, thanks, mister kaufman. we look forward to your visit."
+      },
+      {
+        "id": "0_1_d1091",
+        "original": "Congratulations! Mr. Stuart! You won the city marathon.",
+        "ecss": "congratulations! mister stuart! you won the city marathon."
+      },
+      {
+        "id": "0_1_d1112",
+        "original": "Is there anything I can do for you, Mr. King?",
+        "ecss": "is there anything i can do for you, mister king?"
+      },
+      {
+        "id": "7_1_d1116",
+        "original": "I understand. What should I tell Mr. Morley?",
+        "ecss": "i understand. what should i tell mister morley?"
+      },
+      {
+        "id": "17_1_d1116",
+        "original": "Well, I'll cancel your appointments for today. And I'll tell Mr. Morley.",
+        "ecss": "well, i'll cancel your appointments for today. and i'll tell mister morley."
+      },
+      {
+        "id": "0_1_d1128",
+        "original": "Mr. Lin, what are you interested in?",
+        "ecss": "mister lin, what are you interested in?"
+      },
+      {
+        "id": "1_0_d1141",
+        "original": "I'm Mr. Bob, Room three-o-nine. I'm checking out today. Can I have my bill now?",
+        "ecss": "i'm mister bob, room three-o-nine. i'm checking out today. can i have my bill now?"
+      },
+      {
+        "id": "8_1_d1141",
+        "original": "I'm very sorry, Mr. Bob. There has been a mistake. We'll correct the bill.",
+        "ecss": "i'm very sorry, mister bob. there has been a mistake. we'll correct the bill."
+      },
+      {
+        "id": "0_1_d1149",
+        "original": "What's the date today Mr.Brown? Umm I don't have a calendar.",
+        "ecss": "what's the date today misterbrown? umm i don't have a calendar."
+      },
+      {
+        "id": "7_1_d1194",
+        "original": "Thank you. Mr. Smith. What’s your telephone number?",
+        "ecss": "thank you. mister smith. what's your telephone number?"
+      },
+      {
+        "id": "11_1_d1194",
+        "original": "Thank you, Mr. Smith. Your phone will be disconnected after this phone call. Have a nice day.",
+        "ecss": "thank you, mister smith. your phone will be disconnected after this phone call. have a nice day."
+      },
+      {
+        "id": "1_0_d1212",
+        "original": "All right, Mrs. Green.",
+        "ecss": "all right, misess green."
+      },
+      {
+        "id": "0_0_d1219",
+        "original": "Mrs. Lee, I’ve stayed here for almost a week. Umm and I really must leave tomorrow.",
+        "ecss": "misess lee, i've stayed here for almost a week. umm and i really must leave tomorrow."
+      },
+      {
+        "id": "3_1_d1261",
+        "original": "Sir, I'm sorry. The cancer ward said Mr. Smith passed away two days ago.",
+        "ecss": "sir, i'm sorry. the cancer ward said mister smith passed away two days ago."
+      },
+      {
+        "id": "2_1_d1279",
+        "original": "Thank you, Mr. Wang. Do you have an appointment?",
+        "ecss": "thank you, mister wang. do you have an appointment?"
+      },
+      {
+        "id": "4_1_d1279",
+        "original": "I'm afraid Mr. Li is engaged at the moment. Would you mind waiting?",
+        "ecss": "i'm afraid mister li is engaged at the moment. would you mind waiting?"
+      },
+      {
+        "id": "12_1_d1279",
+        "original": "Yes, I'll make a note of that and ask Mr. Li to confirm.",
+        "ecss": "yes, i'll make a note of that and ask mister li to confirm."
+      },
+      {
+        "id": "0_1_d1288",
+        "original": "I know why Mr. Fro didn't like our ad idea! He doesn't know the first thing about coffee.",
+        "ecss": "i know why mister fro didn't like our ad idea! he doesn't know the first thing about coffee."
+      },
+      {
+        "id": "1_1_d1290",
+        "original": "OK, Mr. Coffee Connoisseur, so what's the next step in the coffee-making process?",
+        "ecss": "ok, mister coffee connoisseur, so what's the next step in the coffee-making process?"
+      },
+      {
+        "id": "0_0_d1314",
+        "original": "I'm sorry, ladies. Mr. Smith's viewing is over. It ended an hour ago.",
+        "ecss": "i'm sorry, ladies. mister smith's viewing is over. it ended an hour ago."
+      },
+      {
+        "id": "10_1_d1317",
+        "original": "( 5 minutes later ) What sort of hairstyles do you like?",
+        "ecss": "( five minutes later ) what sort of hairstyles do you like?"
+      },
+      {
+        "id": "0_1_d1381",
+        "original": "Hi, Mr. James, what’s the rush?",
+        "ecss": "hi, mister james, what's the rush?"
+      },
+      {
+        "id": "0_1_d1406",
+        "original": "Good evening, Mr. Frank. Bourbon on the rocks?",
+        "ecss": "good evening, mister frank. bourbon on the rocks?"
+      },
+      {
+        "id": "4_1_d1407",
+        "original": "If you don't mind, Mr. Smith, please go to counter number six to queue up and wait for the service.",
+        "ecss": "if you don't mind, mister smith, please go to counter number six to queue up and wait for the service."
+      },
+      {
+        "id": "0_1_d1410",
+        "original": "It's so earlier this morning, Mr. Li! You just came back yesterday, you should have rest much more.",
+        "ecss": "it's so earlier this morning, mister li! you just came back yesterday, you should have rest much more."
+      },
+      {
+        "id": "1_0_d1459",
+        "original": "It was a pleasure, Mrs. Robinson.",
+        "ecss": "it was a pleasure, misess robinson."
+      },
+      {
+        "id": "1_1_d1485",
+        "original": "Nice to meet you, Mr. Wilson.",
+        "ecss": "nice to meet you, mister wilson."
+      },
+      {
+        "id": "1_1_d1486",
+        "original": "Hello, Mr. Stern. This is Hao Bo from the International Travel Agency. I have made the plane reservations for you.",
+        "ecss": "hello, mister stern. this is hao bo from the international travel agency. i have made the plane reservations for you."
+      },
+      {
+        "id": "7_1_d1486",
+        "original": "You want to fly first class. Is that correct, Mr. Stern?",
+        "ecss": "you want to fly first class. is that correct, mister stern?"
+      },
+      {
+        "id": "0_1_d1493",
+        "original": "Good morning, Mr. Croft.",
+        "ecss": "good morning, mister croft."
+      },
+      {
+        "id": "0_1_d1534",
+        "original": "Do you think it's time to sign the contract, Mr. Simpson?",
+        "ecss": "do you think it's time to sign the contract, mister simpson?"
+      },
+      {
+        "id": "4_1_d1554",
+        "original": "Very well. Welcome, Mr. Rodgers. Would you please fill out the registration card? How are you doing today?",
+        "ecss": "very well. welcome, mister rodgers. would you please fill out the registration card? how are you doing today?"
+      },
+      {
+        "id": "6_1_d1554",
+        "original": "Mr. Rodgers, how would you handle your account?",
+        "ecss": "mister rodgers, how would you handle your account?"
+      },
+      {
+        "id": "12_1_d1554",
+        "original": "Mr. Rodgers, this is George. He will take care of your luggage. If there is anything I can do for you, please let me know.",
+        "ecss": "mister rodgers, this is george. he will take care of your luggage. if there is anything i can do for you, please let me know."
+      },
+      {
+        "id": "3_1_d1565",
+        "original": "Have you used any hotel services this morning or had breakfast at the hotel dining room, Mr. Green?",
+        "ecss": "have you used any hotel services this morning or had breakfast at the hotel dining room, mister green?"
+      },
+      {
+        "id": "1_0_d1566",
+        "original": "Hello, may I speak to Mrs. Smith?",
+        "ecss": "hello, may i speak to misess smith?"
+      },
+      {
+        "id": "4_1_d1566",
+        "original": "Hello, Mr. Sun.",
+        "ecss": "hello, mister sun."
+      },
+      {
+        "id": "6_1_d1566",
+        "original": "You are welcome, Mr. Sun.",
+        "ecss": "you are welcome, mister sun."
+      },
+      {
+        "id": "3_0_d1582",
+        "original": "This is Mr. Gao. How are you?",
+        "ecss": "this is mister gao. how are you?"
+      },
+      {
+        "id": "1_1_d1589",
+        "original": "I bought the MP4 in your store a week before, but it doesn't work today.",
+        "ecss": "i bought the mpfour in your store a week before, but it doesn't work today."
+      },
+      {
+        "id": "8_1_d1623",
+        "original": "Thank you, Mr. Davis.",
+        "ecss": "thank you, mister davis."
+      },
+      {
+        "id": "4_1_d1627",
+        "original": "I'm glad to meet you, Mr. Zhuang. Sit down, please.",
+        "ecss": "i'm glad to meet you, mister zhuang. sit down, please."
+      },
+      {
+        "id": "12_1_d1627",
+        "original": "All right. You need to have an interview with our manager, Mr. McBride. Let's go to his office.",
+        "ecss": "all right. you need to have an interview with our manager, mister mcbride. let's go to his office."
+      },
+      {
+        "id": "1_0_d1679",
+        "original": "OK. Let me see. That will be hundred four-ninety nine104.99 dollars.",
+        "ecss": "ok. let me see. that will be hundred four-ninety nineone hundred four point ninety-nine dollars."
+      },
+      {
+        "id": "3_1_d1713",
+        "original": "How do you do? Mr. Brown. I am Susan Heywood.",
+        "ecss": "how do you do? mister brown. i am susan heywood."
+      },
+      {
+        "id": "4_0_d1713",
+        "original": "Mr. Smith often talked about you.",
+        "ecss": "mister smith often talked about you."
+      },
+      {
+        "id": "4_1_d1728",
+        "original": "Wait for a minute, Mr. Brown, a single room with bath from today to the fifteenth.",
+        "ecss": "wait for a minute, mister brown, a single room with bath from today to the fifteenth."
+      },
+      {
+        "id": "4_0_d1751",
+        "original": "I'd like to exchange 5000 Singapore dollars into the US dollars please.",
+        "ecss": "i'd like to exchange five thousand singapore dollars into the us dollars please."
+      },
+      {
+        "id": "11_1_d1781",
+        "original": "I’m glad to meet you, Mr. Song.",
+        "ecss": "i'm glad to meet you, mister song."
+      },
+      {
+        "id": "5_0_d1787",
+        "original": "This is Mr. William.",
+        "ecss": "this is mister william."
+      },
+      {
+        "id": "8_1_d1787",
+        "original": "Thank you, Mr. William. Goodbye.",
+        "ecss": "thank you, mister william. goodbye."
+      },
+      {
+        "id": "14_1_d1788",
+        "original": "Mr. Smith, you can get things fixed through our agencies in Guangzhou. Do you remember to bring your passport with you?",
+        "ecss": "mister smith, you can get things fixed through our agencies in guangzhou. do you remember to bring your passport with you?"
+      },
+      {
+        "id": "0_1_d1807",
+        "original": "What seems to be the trouble, Mr. Brown?",
+        "ecss": "what seems to be the trouble, mister brown?"
+      },
+      {
+        "id": "8_1_d1807",
+        "original": "Let me take your blood pressure. You look anemic. Well, Mr. Brown, I'm happy to say it's nothing serious. You're just a little run-down from overwork.",
+        "ecss": "let me take your blood pressure. you look anemic. well, mister brown, i'm happy to say it's nothing serious. you're just a little run-down from overwork."
+      },
+      {
+        "id": "0_1_d1856",
+        "original": "Hello, I'd like to see Mr. Charles, the manager, please.",
+        "ecss": "hello, i'd like to see mister charles, the manager, please."
+      },
+      {
+        "id": "2_1_d1859",
+        "original": "Umm, I'm sorry, Mr. Baker is not in. May I take a message?",
+        "ecss": "umm, i'm sorry, mister baker is not in. may i take a message?"
+      },
+      {
+        "id": "3_0_d1859",
+        "original": "Yes. Tell him Mr.Cook called and ask him to return my call soon as he gets back.",
+        "ecss": "yes. tell him mistercook called and ask him to return my call soon as he gets back."
+      },
+      {
+        "id": "4_1_d1859",
+        "original": "All right, Mr. Cook. I'll have Mr. Baker call you back as soon as he gets here.",
+        "ecss": "all right, mister cook. i'll have mister baker call you back as soon as he gets here."
+      },
+      {
+        "id": "0_1_d1878",
+        "original": "Hello, is Mr. Over ther?",
+        "ecss": "hello, is mister over ther?"
+      },
+      {
+        "id": "1_0_d1878",
+        "original": "Sorry, madam. I'm afraid you have a wrong number. we don't have Mr. Over here.",
+        "ecss": "sorry, madam. i'm afraid you have a wrong number. we don't have mister over here."
+      },
+      {
+        "id": "0_1_d1917",
+        "original": "Good morning, Mr. Jones!",
+        "ecss": "good morning, mister jones!"
+      },
+      {
+        "id": "7_1_d1952",
+        "original": "No, it’s three seven two five o one nine two eight one1, it’s a nine, not a five.",
+        "ecss": "no, it's three seven two five o one nine two eight oneone, it's a nine, not a five."
+      },
+      {
+        "id": "1_1_d2006",
+        "original": "I'm afraid we're really staffed this week, Mr. Li. I'd like to meet you, but I'm sorry I really can't.",
+        "ecss": "i'm afraid we're really staffed this week, mister li. i'd like to meet you, but i'm sorry i really can't."
+      },
+      {
+        "id": "11_0_d2016",
+        "original": "This is Mr. Ma in room two one five.",
+        "ecss": "this is mister ma in room two one five."
+      },
+      {
+        "id": "12_1_d2016",
+        "original": "OK, Mr. Ma. I'll tell the front desk clerk the charge afterwards.",
+        "ecss": "ok, mister ma. i'll tell the front desk clerk the charge afterwards."
+      },
+      {
+        "id": "1_1_d2070",
+        "original": "What exactly seems to be the problem, Mr. Sandals?",
+        "ecss": "what exactly seems to be the problem, mister sandals?"
+      },
+      {
+        "id": "1_0_d2082",
+        "original": "Mr. Green, please.",
+        "ecss": "mister green, please."
+      },
+      {
+        "id": "1_0_d2098",
+        "original": "Umm yes, please. I’m Mr. Peter, the Director of Personnel. What can I do for you?",
+        "ecss": "umm yes, please. i'm mister peter, the director of personnel. what can i do for you?"
+      },
+      {
+        "id": "2_1_d2098",
+        "original": "Nice to meet you, Mr. Peter. I’m Wang Sian. I’ve come for an interview as requested.",
+        "ecss": "nice to meet you, mister peter. i'm wang sian. i've come for an interview as requested."
+      },
+      {
+        "id": "1_1_d2103",
+        "original": "Hello. This is the operator. Can I speak to Mr. Smith, please?",
+        "ecss": "hello. this is the operator. can i speak to mister smith, please?"
+      },
+      {
+        "id": "2_0_d2103",
+        "original": "This is Mr. Smith.",
+        "ecss": "this is mister smith."
+      },
+      {
+        "id": "6_1_d2121",
+        "original": "Could Dr. Cole like to attend the party?",
+        "ecss": "could doctor cole like to attend the party?"
+      },
+      {
+        "id": "0_1_d2130",
+        "original": "Excuse me, Mr. Li. I have something to discuss with you.",
+        "ecss": "excuse me, mister li. i have something to discuss with you."
+      },
+      {
+        "id": "11_1_d2144",
+        "original": "Well, this is going to be a very expensive broken leg, Mr. Taylor.",
+        "ecss": "well, this is going to be a very expensive broken leg, mister taylor."
+      },
+      {
+        "id": "4_0_d2147",
+        "original": "I see. Wait for a moment please. I am sorry, Mrs. Clinton, but the remittance doesn't appear to have arrived yet.",
+        "ecss": "i see. wait for a moment please. i am sorry, misess clinton, but the remittance doesn't appear to have arrived yet."
+      },
+      {
+        "id": "0_0_d2161",
+        "original": "Dental clinic. This is Mr. Adams.",
+        "ecss": "dental clinic. this is mister adams."
+      },
+      {
+        "id": "2_1_d2168",
+        "original": "Yes, I see. five thirty AM Mr. Green, Room ten-twenty-one.",
+        "ecss": "yes, i see. five thirty am mister green, room ten-twenty-one."
+      },
+      {
+        "id": "5_1_d2230",
+        "original": "My boyfriend took me to the Shane Co. and he let me pick it out.",
+        "ecss": "my boyfriend took me to the shane company and he let me pick it out."
+      },
+      {
+        "id": "0_1_d2233",
+        "original": "Mr. Ben, What do you think of the book?",
+        "ecss": "mister ben, what do you think of the book?"
+      },
+      {
+        "id": "1_1_d2254",
+        "original": "Hi there Mr. Anderson! How are you on this fine morning?",
+        "ecss": "hi there mister anderson! how are you on this fine morning?"
+      },
+      {
+        "id": "0_1_d2277",
+        "original": "Mr. Charles, I feel that we have had a very pleasant talk.",
+        "ecss": "mister charles, i feel that we have had a very pleasant talk."
+      },
+      {
+        "id": "2_1_d2336",
+        "original": "Nice to meet you Mr. Taylor.",
+        "ecss": "nice to meet you mister taylor."
+      },
+      {
+        "id": "1_0_d2393",
+        "original": "Yes, good morning. This is Mr. Suzuki from Video TV. May I speak to Mr. Johnson?",
+        "ecss": "yes, good morning. this is mister suzuki from video tv. may i speak to mister johnson?"
+      },
+      {
+        "id": "2_1_d2393",
+        "original": "I'm sorry, but Mr. Johnson is out at the moment. Can I take a message?",
+        "ecss": "i'm sorry, but mister johnson is out at the moment. can i take a message?"
+      },
+      {
+        "id": "14_1_d2393",
+        "original": "Extension one sixty two. OK, Mr. Suzuki. I'll give him the message.",
+        "ecss": "extension one sixty two. ok, mister suzuki. i'll give him the message."
+      },
+      {
+        "id": "2_1_d2400",
+        "original": "( At counter 1. ) Do you take parcels here?",
+        "ecss": "( at counter one. ) do you take parcels here?"
+      },
+      {
+        "id": "0_1_d2401",
+        "original": "Tell me, Mr. Han. What do you suggest if we establish long term business relations?",
+        "ecss": "tell me, mister han. what do you suggest if we establish long term business relations?"
+      },
+      {
+        "id": "3_1_d2403",
+        "original": "It costs two-seventy-five yuan, Mr.",
+        "ecss": "it costs two-seventy-five yuan, mister"
+      },
+      {
+        "id": "0_1_d2423",
+        "original": "Umm excuse me. I have an appointment with Mr. Li at nine. May I come in?",
+        "ecss": "umm excuse me. i have an appointment with mister li at nine. may i come in?"
+      },
+      {
+        "id": "1_0_d2423",
+        "original": "Yes, come in please. I am Mr. Li. You must be Ms. Liu, right?",
+        "ecss": "yes, come in please. i am mister li. you must be ms. liu, right?"
+      },
+      {
+        "id": "0_0_d2430",
+        "original": "Good morning. I’m Mickey Huang, I have an appointment with Mr. wilson.",
+        "ecss": "good morning. i'm mickey huang, i have an appointment with mister wilson."
+      },
+      {
+        "id": "3_1_d2430",
+        "original": "Mr. wilson is on the line right now. Please have a seat. He'll be right with you.",
+        "ecss": "mister wilson is on the line right now. please have a seat. he'll be right with you."
+      },
+      {
+        "id": "0_1_d2443",
+        "original": "Mr. Wang, have you enjoyed your stay here?",
+        "ecss": "mister wang, have you enjoyed your stay here?"
+      },
+      {
+        "id": "0_1_d2458",
+        "original": "Hello, can I speak to Mr. Green?",
+        "ecss": "hello, can i speak to mister green?"
+      },
+      {
+        "id": "0_0_d2473",
+        "original": "Hi, Mrs. Henderson.",
+        "ecss": "hi, misess henderson."
+      },
+      {
+        "id": "5_1_d2473",
+        "original": "I guess it Is Mrs. Hill. She sued for divorce on the grounds of her husband's misconduct with his secretary.",
+        "ecss": "i guess it is misess hill. she sued for divorce on the grounds of her husband's misconduct with his secretary."
+      },
+      {
+        "id": "6_0_d2490",
+        "original": "Last week, It said that he fell in love with Jenny at Mrs. White's party last Monday as soon as he saw her.",
+        "ecss": "last week, it said that he fell in love with jenny at misess white's party last monday as soon as he saw her."
+      },
+      {
+        "id": "1_1_d2500",
+        "original": "I am typing a report for the moment, Mr. Robbins. Anything I need to do?",
+        "ecss": "i am typing a report for the moment, mister robbins. anything i need to do?"
+      },
+      {
+        "id": "11_1_d2500",
+        "original": "Certainly I will, Mr. Robbins. By the way, may I use a window envelope?",
+        "ecss": "certainly i will, mister robbins. by the way, may i use a window envelope?"
+      },
+      {
+        "id": "0_1_d2521",
+        "original": "Hey, Mr. Brown. How are you? Look at that smile on your face!",
+        "ecss": "hey, mister brown. how are you? look at that smile on your face!"
+      },
+      {
+        "id": "0_1_d2524",
+        "original": "Where's Mrs. Johnson?",
+        "ecss": "where's misess johnson?"
+      },
+      {
+        "id": "4_1_d2524",
+        "original": "Thank you, Mr. Johnson.",
+        "ecss": "thank you, mister johnson."
+      }
+    ],
+    "warnings": [
+      {
+        "dialogue_id": 1451,
+        "reason": "metadata turn field says 19, but published metadata and audio both contain exactly 10 contiguous turns (0–9); dialogue/utterance IDs otherwise agree",
+        "handling": "Preserve original files; exclude this dialogue from strict complete-history pilot until upstream clarification"
+      }
+    ],
+    "metadata_txt_normalized_mismatches": [
+      {
+        "id": "7_0_d905",
+        "metadata": "Sure, it's White in Room 204.",
+        "txt": "Sure, it's White in Room two-o-four."
+      },
+      {
+        "id": "8_1_d905",
+        "metadata": "Let me confirm your order, Mr. White in Room 204, Chinese food. Is that right ?",
+        "txt": "Let me confirm your order, Mr. White in Room two-o-four, Chinese food. Is that right?"
+      }
+    ]
+  },
+  "recommendation": {
+    "retain": true,
+    "use": "Past-only audio/text dialogue-context pilot and input-format testing, with declared label source; additional controlled human labeling if claiming matched-evidence perception",
+    "limitations": [
+      "Two actors only; cannot establish population-wide speaker generalization",
+      "High neutral share; use UAR/macro-F1 and per-class counts",
+      "Public category annotations must not be called a new independent multi-listener gold standard",
+      "No label for same target under separate no-history versus true-history human conditions"
+    ],
+    "strict_complete_ecss_dialogues": 2539,
+    "strict_excluded_dialogues": [
+      {
+        "dialogue_id": 1451,
+        "reason": "declared length inconsistent"
+      },
+      {
+        "dialogue_id": 175,
+        "reason": "all 14 turns absent from ECSS supplemental labels; original labels remain present"
+      }
+    ]
+  },
+  "examples": [
+    {
+      "dialogue_id": 9,
+      "target_id": "10_1_d9",
+      "target_emotion": "surprise",
+      "target_word_count": 1,
+      "turns": [
+        {
+          "audio_path": "data/9/8_1_d9.wav",
+          "audio_id": "8_1_d9",
+          "turn_index": 8,
+          "speaker_id": 1,
+          "text": "Yes. It's so strange that he slept all the time after taking the pills.",
+          "original_emotion": "no emotion",
+          "ecss_emotion": "none",
+          "duration_s": 5.005941043
+        },
+        {
+          "audio_path": "data/9/9_0_d9.wav",
+          "audio_id": "9_0_d9",
+          "turn_index": 9,
+          "speaker_id": 0,
+          "text": "Oh, sorry, maybe I gave you the wrong medicine.",
+          "original_emotion": "no emotion",
+          "ecss_emotion": "none",
+          "duration_s": 3.877278912
+        },
+        {
+          "audio_path": "data/9/10_1_d9.wav",
+          "audio_id": "10_1_d9",
+          "turn_index": 10,
+          "speaker_id": 1,
+          "text": "What?",
+          "original_emotion": "surprise",
+          "ecss_emotion": "surprise",
+          "duration_s": 0.854036281
+        }
+      ]
+    },
+    {
+      "dialogue_id": 24,
+      "target_id": "12_0_d24",
+      "target_emotion": "happiness",
+      "target_word_count": 2,
+      "turns": [
+        {
+          "audio_path": "data/24/10_0_d24.wav",
+          "audio_id": "10_0_d24",
+          "turn_index": 10,
+          "speaker_id": 0,
+          "text": "Your mentality is very good and that's great.",
+          "original_emotion": "happiness",
+          "ecss_emotion": "happiness",
+          "duration_s": 3.668888889
+        },
+        {
+          "audio_path": "data/24/11_1_d24.wav",
+          "audio_id": "11_1_d24",
+          "turn_index": 11,
+          "speaker_id": 1,
+          "text": "Thanks for giving me the opportunity of this interview.",
+          "original_emotion": "happiness",
+          "ecss_emotion": "happiness",
+          "duration_s": 3.615600907
+        },
+        {
+          "audio_path": "data/24/12_0_d24.wav",
+          "audio_id": "12_0_d24",
+          "turn_index": 12,
+          "speaker_id": 0,
+          "text": "My pleasure.",
+          "original_emotion": "happiness",
+          "ecss_emotion": "happiness",
+          "duration_s": 1.401972789
+        }
+      ]
+    },
+    {
+      "dialogue_id": 178,
+      "target_id": "5_0_d178",
+      "target_emotion": "anger",
+      "target_word_count": 3,
+      "turns": [
+        {
+          "audio_path": "data/178/3_0_d178.wav",
+          "audio_id": "3_0_d178",
+          "turn_index": 3,
+          "speaker_id": 0,
+          "text": "So what? It is not fresh and I'm not happy about it.",
+          "original_emotion": "anger",
+          "ecss_emotion": "anger",
+          "duration_s": 4.606666667
+        },
+        {
+          "audio_path": "data/178/4_1_d178.wav",
+          "audio_id": "4_1_d178",
+          "turn_index": 4,
+          "speaker_id": 1,
+          "text": "I'm sorry, sir. Do you wish to try something else? That would be on the house, of course.",
+          "original_emotion": "sadness",
+          "ecss_emotion": "sadness",
+          "duration_s": 5.716077098
+        },
+        {
+          "audio_path": "data/178/5_0_d178.wav",
+          "audio_id": "5_0_d178",
+          "turn_index": 5,
+          "speaker_id": 0,
+          "text": "No, thank you.",
+          "original_emotion": "anger",
+          "ecss_emotion": "anger",
+          "duration_s": 1.616371882
+        }
+      ]
+    },
+    {
+      "dialogue_id": 197,
+      "target_id": "4_1_d197",
+      "target_emotion": "sadness",
+      "target_word_count": 3,
+      "turns": [
+        {
+          "audio_path": "data/197/2_1_d197.wav",
+          "audio_id": "2_1_d197",
+          "turn_index": 2,
+          "speaker_id": 1,
+          "text": "Isn't this Li's residence?",
+          "original_emotion": "no emotion",
+          "ecss_emotion": "none",
+          "duration_s": 2.932653061
+        },
+        {
+          "audio_path": "data/197/3_0_d197.wav",
+          "audio_id": "3_0_d197",
+          "turn_index": 3,
+          "speaker_id": 0,
+          "text": "No, it is not.",
+          "original_emotion": "no emotion",
+          "ecss_emotion": "none",
+          "duration_s": 1.742494331
+        },
+        {
+          "audio_path": "data/197/4_1_d197.wav",
+          "audio_id": "4_1_d197",
+          "turn_index": 4,
+          "speaker_id": 1,
+          "text": "Oh, I'm sorry.",
+          "original_emotion": "sadness",
+          "ecss_emotion": "sadness",
+          "duration_s": 1.659024943
+        }
+      ]
+    },
+    {
+      "dialogue_id": 204,
+      "target_id": "8_0_d204",
+      "target_emotion": "happiness",
+      "target_word_count": 3,
+      "turns": [
+        {
+          "audio_path": "data/204/6_0_d204.wav",
+          "audio_id": "6_0_d204",
+          "turn_index": 6,
+          "speaker_id": 0,
+          "text": "Sure, how much do you need?",
+          "original_emotion": "no emotion",
+          "ecss_emotion": "none",
+          "duration_s": 1.5
+        },
+        {
+          "audio_path": "data/204/7_1_d204.wav",
+          "audio_id": "7_1_d204",
+          "turn_index": 7,
+          "speaker_id": 1,
+          "text": "About fifty dollars.",
+          "original_emotion": "no emotion",
+          "ecss_emotion": "none",
+          "duration_s": 1.291678005
+        },
+        {
+          "audio_path": "data/204/8_0_d204.wav",
+          "audio_id": "8_0_d204",
+          "turn_index": 8,
+          "speaker_id": 0,
+          "text": "That's no problem.",
+          "original_emotion": "happiness",
+          "ecss_emotion": "happiness",
+          "duration_s": 1.208344671
+        }
+      ]
+    }
+  ],
+  "context_pilot_counts": {
+    "dialogues_with_at_least_two_emotions": 1545,
+    "dialogues_with_adjacent_emotion_change": 1545,
+    "strict_dialogues_with_at_least_two_emotions": 1545,
+    "targets_with_at_least_one_past_turn": 21232,
+    "targets_with_history_and_at_most_two_seconds": 5475,
+    "targets_with_history_and_short_by_either_rule": 5706,
+    "targets_with_history_and_at_most_three_words": 2779,
+    "nonneutral_targets_with_past_turn": 4495,
+    "ecss_nonneutral_targets_with_past_turn": 4495,
+    "targets_with_different_emotion_than_previous_turn": 4036,
+    "targets_with_different_emotion_than_same_speakers_previous_turn": 3583,
+    "nonneutral_targets_with_history_and_at_most_two_seconds": 1061,
+    "nonneutral_targets_with_history_and_short_by_either_rule": 1161,
+    "nonneutral_targets_with_history_and_at_most_three_words": 770
+  }
+}

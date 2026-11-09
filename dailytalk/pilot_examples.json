@@ -1,0 +1,192 @@
+[
+  {
+    "dialogue_id": 9,
+    "target_id": "10_1_d9",
+    "target_emotion": "surprise",
+    "target_word_count": 1,
+    "turns": [
+      {
+        "audio_path": "data/9/8_1_d9.wav",
+        "audio_id": "8_1_d9",
+        "turn_index": 8,
+        "speaker_id": 1,
+        "text": "Yes. It's so strange that he slept all the time after taking the pills.",
+        "original_emotion": "no emotion",
+        "ecss_emotion": "none",
+        "duration_s": 5.005941043
+      },
+      {
+        "audio_path": "data/9/9_0_d9.wav",
+        "audio_id": "9_0_d9",
+        "turn_index": 9,
+        "speaker_id": 0,
+        "text": "Oh, sorry, maybe I gave you the wrong medicine.",
+        "original_emotion": "no emotion",
+        "ecss_emotion": "none",
+        "duration_s": 3.877278912
+      },
+      {
+        "audio_path": "data/9/10_1_d9.wav",
+        "audio_id": "10_1_d9",
+        "turn_index": 10,
+        "speaker_id": 1,
+        "text": "What?",
+        "original_emotion": "surprise",
+        "ecss_emotion": "surprise",
+        "duration_s": 0.854036281
+      }
+    ]
+  },
+  {
+    "dialogue_id": 24,
+    "target_id": "12_0_d24",
+    "target_emotion": "happiness",
+    "target_word_count": 2,
+    "turns": [
+      {
+        "audio_path": "data/24/10_0_d24.wav",
+        "audio_id": "10_0_d24",
+        "turn_index": 10,
+        "speaker_id": 0,
+        "text": "Your mentality is very good and that's great.",
+        "original_emotion": "happiness",
+        "ecss_emotion": "happiness",
+        "duration_s": 3.668888889
+      },
+      {
+        "audio_path": "data/24/11_1_d24.wav",
+        "audio_id": "11_1_d24",
+        "turn_index": 11,
+        "speaker_id": 1,
+        "text": "Thanks for giving me the opportunity of this interview.",
+        "original_emotion": "happiness",
+        "ecss_emotion": "happiness",
+        "duration_s": 3.615600907
+      },
+      {
+        "audio_path": "data/24/12_0_d24.wav",
+        "audio_id": "12_0_d24",
+        "turn_index": 12,
+        "speaker_id": 0,
+        "text": "My pleasure.",
+        "original_emotion": "happiness",
+        "ecss_emotion": "happiness",
+        "duration_s": 1.401972789
+      }
+    ]
+  },
+  {
+    "dialogue_id": 178,
+    "target_id": "5_0_d178",
+    "target_emotion": "anger",
+    "target_word_count": 3,
+    "turns": [
+      {
+        "audio_path": "data/178/3_0_d178.wav",
+        "audio_id": "3_0_d178",
+        "turn_index": 3,
+        "speaker_id": 0,
+        "text": "So what? It is not fresh and I'm not happy about it.",
+        "original_emotion": "anger",
+        "ecss_emotion": "anger",
+        "duration_s": 4.606666667
+      },
+      {
+        "audio_path": "data/178/4_1_d178.wav",
+        "audio_id": "4_1_d178",
+        "turn_index": 4,
+        "speaker_id": 1,
+        "text": "I'm sorry, sir. Do you wish to try something else? That would be on the house, of course.",
+        "original_emotion": "sadness",
+        "ecss_emotion": "sadness",
+        "duration_s": 5.716077098
+      },
+      {
+        "audio_path": "data/178/5_0_d178.wav",
+        "audio_id": "5_0_d178",
+        "turn_index": 5,
+        "speaker_id": 0,
+        "text": "No, thank you.",
+        "original_emotion": "anger",
+        "ecss_emotion": "anger",
+        "duration_s": 1.616371882
+      }
+    ]
+  },
+  {
+    "dialogue_id": 197,
+    "target_id": "4_1_d197",
+    "target_emotion": "sadness",
+    "target_word_count": 3,
+    "turns": [
+      {
+        "audio_path": "data/197/2_1_d197.wav",
+        "audio_id": "2_1_d197",
+        "turn_index": 2,
+        "speaker_id": 1,
+        "text": "Isn't this Li's residence?",
+        "original_emotion": "no emotion",
+        "ecss_emotion": "none",
+        "duration_s": 2.932653061
+      },
+      {
+        "audio_path": "data/197/3_0_d197.wav",
+        "audio_id": "3_0_d197",
+        "turn_index": 3,
+        "speaker_id": 0,
+        "text": "No, it is not.",
+        "original_emotion": "no emotion",
+        "ecss_emotion": "none",
+        "duration_s": 1.742494331
+      },
+      {
+        "audio_path": "data/197/4_1_d197.wav",
+        "audio_id": "4_1_d197",
+        "turn_index": 4,
+        "speaker_id": 1,
+        "text": "Oh, I'm sorry.",
+        "original_emotion": "sadness",
+        "ecss_emotion": "sadness",
+        "duration_s": 1.659024943
+      }
+    ]
+  },
+  {
+    "dialogue_id": 204,
+    "target_id": "8_0_d204",
+    "target_emotion": "happiness",
+    "target_word_count": 3,
+    "turns": [
+      {
+        "audio_path": "data/204/6_0_d204.wav",
+        "audio_id": "6_0_d204",
+        "turn_index": 6,
+        "speaker_id": 0,
+        "text": "Sure, how much do you need?",
+        "original_emotion": "no emotion",
+        "ecss_emotion": "none",
+        "duration_s": 1.5
+      },
+      {
+        "audio_path": "data/204/7_1_d204.wav",
+        "audio_id": "7_1_d204",
+        "turn_index": 7,
+        "speaker_id": 1,
+        "text": "About fifty dollars.",
+        "original_emotion": "no emotion",
+        "ecss_emotion": "none",
+        "duration_s": 1.291678005
+      },
+      {
+        "audio_path": "data/204/8_0_d204.wav",
+        "audio_id": "8_0_d204",
+        "turn_index": 8,
+        "speaker_id": 0,
+        "text": "That's no problem.",
+        "original_emotion": "happiness",
+        "ecss_emotion": "happiness",
+        "duration_s": 1.208344671
+      }
+    ]
+  }
+]
