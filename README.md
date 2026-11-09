@@ -24,7 +24,7 @@ python3 emotion_recognition/scripts/common/setup_datasets.py
 ```
 
 That command initializes this submodule when needed, preserves an older local data directory, reuses verified
-files, and restores missing mirrored data. Existing external datasets and local ESD data remain on the machine;
+files, and restores missing mirrored data. In a full main-project clone, it can also recover the previously committed dataset files directly from local Git objects (including nEMO legacy parts), avoiding a fresh archive download after Git removes the old tracked paths during migration. Shallow clones use Release downloads when those historical objects are unavailable. Existing external datasets and local ESD data remain on the machine;
 ESD is excluded from this catalogue and is never uploaded here. Unknown extra local materials remain in the
 preserved backup. Runtime paths stay `data/<dataset>/` inside the emotion-recognition project.
 

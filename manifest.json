@@ -452238,5 +452238,9 @@
         "instructions": "Use the main project source downloader: python3 scripts/common/download_data.py --source --dataset emozionalmente"
       }
     }
+  },
+  "legacy_git": {
+    "commit": "2d2f668956cf7c4d7a88ddb0983a72ac5e37dc86",
+    "prefix": "emotion_recognition/data"
   }
 }
