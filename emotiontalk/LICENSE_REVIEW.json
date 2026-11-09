@@ -1,0 +1,27 @@
+{
+  "review_date": "2026-11-09",
+  "repository": "BAAI/Emotiontalk",
+  "revision": "adbc17fc944e8cf2873643906160c6ca0259ab61",
+  "declared_license": "CC BY-NC-SA 4.0",
+  "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "legalcode_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode.txt",
+  "gate_mode": "auto",
+  "public_gate_description": "You need to agree to share your Hugging Face information to access this dataset",
+  "card_metadata": {
+    "language": [
+      "zh"
+    ],
+    "license": "cc-by-nc-sa-4.0",
+    "size_categories": [
+      "100K<n<1M"
+    ]
+  },
+  "extra_gated_fields_present": false,
+  "extra_gated_prompt_present": false,
+  "extra_no_redistribution_or_access_control_terms_found": false,
+  "observations": "Current public page, fixed-revision README and current HfApi dataset metadata contain no extra no-redistribution or mandatory continuing gate conditions. The user had already accepted access manually; this review does not reconstruct historical click-through screens.",
+  "redistribution_basis": "The declared CC BY-NC-SA 4.0 license permits redistribution subject to attribution, NonCommercial and ShareAlike. Retain upstream attribution, source link, license, and change notice.",
+  "gated_documentation_url": "https://huggingface.co/docs/hub/datasets-gated",
+  "fees": "Only free repository files were downloaded. No paid inference, endpoints, Jobs, subscriptions, storage purchases, or other paid services were used.",
+  "private_credentials_included": false
+}

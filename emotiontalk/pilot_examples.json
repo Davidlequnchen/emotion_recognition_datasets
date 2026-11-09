@@ -1,0 +1,283 @@
+[
+  {
+    "dialogue_id": "G00015_24",
+    "split": "test",
+    "target": {
+      "clip_id": "G00015_24_20_018",
+      "audio_path": "Audio/wav/G00015/G00015_24/G00015_24_20/G00015_24_20_018.wav",
+      "speaker_id": "20",
+      "text": "哎，对。",
+      "emotion": "neutral",
+      "start_s": 36.19916941011578,
+      "end_s": 36.89363346433828,
+      "duration_s": 0.6944671201814059
+    },
+    "past": [
+      {
+        "clip_id": "G00015_24_21_015",
+        "audio_path": "Audio/wav/G00015/G00015_24/G00015_24_21/G00015_24_21_015.wav",
+        "speaker_id": "21",
+        "text": "嗯，你变美了。",
+        "emotion": "neutral",
+        "start_s": 26.75260682067023,
+        "end_s": 27.66189220779059
+      },
+      {
+        "clip_id": "G00015_24_20_016",
+        "audio_path": "Audio/wav/G00015/G00015_24/G00015_24_20/G00015_24_20_016.wav",
+        "speaker_id": "20",
+        "text": "哎呀，[laughing]真会说话。",
+        "emotion": "happy",
+        "start_s": 27.66189220779059,
+        "end_s": 30.46382408281038
+      },
+      {
+        "clip_id": "G00015_24_21_017",
+        "audio_path": "Audio/wav/G00015/G00015_24/G00015_24_21/G00015_24_21_017.wav",
+        "speaker_id": "21",
+        "text": "以前上学那会儿，我就觉得，你肯定以后是要去北京的。你看果然，你在北京十年了，对吧？",
+        "emotion": "neutral",
+        "start_s": 30.46382408281038,
+        "end_s": 36.19916941011578
+      }
+    ],
+    "note": "Labels included for audit only; never supply history gold labels or target captions to the model. This example does not prove that context improves classification."
+  },
+  {
+    "dialogue_id": "G00003_34",
+    "split": "test",
+    "target": {
+      "clip_id": "G00003_34_02_016",
+      "audio_path": "Audio/wav/G00003/G00003_34/G00003_34_02/G00003_34_02_016.wav",
+      "speaker_id": "02",
+      "text": "哎是吗？",
+      "emotion": "happy",
+      "start_s": 47.14264601524158,
+      "end_s": 47.80985117919207,
+      "duration_s": 0.6671882086167801
+    },
+    "past": [
+      {
+        "clip_id": "G00003_34_13_011",
+        "audio_path": "Audio/wav/G00003/G00003_34/G00003_34_13/G00003_34_13_011.wav",
+        "speaker_id": "13",
+        "text": "这个最近我们店里面搞活动呢，[over/]然后[/over]充一千赠三百。",
+        "emotion": "neutral",
+        "start_s": 28.49227483547986,
+        "end_s": 35.1227562611648
+      },
+      {
+        "clip_id": "G00003_34_13_013",
+        "audio_path": "Audio/wav/G00003/G00003_34/G00003_34_13/G00003_34_13_013.wav",
+        "speaker_id": "13",
+        "text": "你看高姐。",
+        "emotion": "neutral",
+        "start_s": 36.90190303667849,
+        "end_s": 38.13661145465795
+      },
+      {
+        "clip_id": "G00003_34_13_015",
+        "audio_path": "Audio/wav/G00003/G00003_34/G00003_34_13/G00003_34_13_015.wav",
+        "speaker_id": "13",
+        "text": "这个正好今天搞活动比较大【over/】啊【/over】，正好你赶上了，所以说你看，真的你你看你这发质啊，特别好越来越好了。",
+        "emotion": "neutral",
+        "start_s": 38.89169402291055,
+        "end_s": 47.11660444065151
+      }
+    ],
+    "note": "Labels included for audit only; never supply history gold labels or target captions to the model. This example does not prove that context improves classification."
+  },
+  {
+    "dialogue_id": "G00003_50",
+    "split": "test",
+    "target": {
+      "clip_id": "G00003_50_13_018",
+      "audio_path": "Audio/wav/G00003/G00003_50/G00003_50_13/G00003_50_13_018.wav",
+      "speaker_id": "13",
+      "text": "谁来顶？",
+      "emotion": "surprised",
+      "start_s": 94.23303640948556,
+      "end_s": 95.04098887282488,
+      "duration_s": 0.8079591836734694
+    },
+    "past": [
+      {
+        "clip_id": "G00003_50_02_015",
+        "audio_path": "Audio/wav/G00003/G00003_50/G00003_50_02/G00003_50_02_015.wav",
+        "speaker_id": "02",
+        "text": "这不是你自己说了吗，路上颠簸你自己不注意点儿吗？你就不能绕路吗？那肯定就是你的问题[over/]啊[/over]，路上你才能搞成[over/]这样的[/over]。",
+        "emotion": "angry",
+        "start_s": 74.11702025927694,
+        "end_s": 81.55012701769546
+      },
+      {
+        "clip_id": "G00003_50_13_016",
+        "audio_path": "Audio/wav/G00003/G00003_50/G00003_50_13/G00003_50_13_016.wav",
+        "speaker_id": "13",
+        "text": "【over/】不是啊【/over】，你这路上颠簸，路上颠簸是路上颠簸。但是箱，当时装什么样我卸货也是什么样。",
+        "emotion": "angry",
+        "start_s": 80.7824215054276,
+        "end_s": 89.64265488606137
+      },
+      {
+        "clip_id": "G00003_50_02_017",
+        "audio_path": "Audio/wav/G00003/G00003_50/G00003_50_02/G00003_50_02_017.wav",
+        "speaker_id": "02",
+        "text": "我不管，现在这个赔偿，这个赔偿谁来顶？不是你的问题吗？",
+        "emotion": "angry",
+        "start_s": 89.67547308532122,
+        "end_s": 94.23303640948556
+      }
+    ],
+    "note": "Labels included for audit only; never supply history gold labels or target captions to the model. This example does not prove that context improves classification."
+  },
+  {
+    "dialogue_id": "G00015_53",
+    "split": "test",
+    "target": {
+      "clip_id": "G00015_53_21_017",
+      "audio_path": "Audio/wav/G00015/G00015_53/G00015_53_21/G00015_53_21_017.wav",
+      "speaker_id": "21",
+      "text": "对不起。",
+      "emotion": "sad",
+      "start_s": 131.44167537525823,
+      "end_s": 132.32708508377323,
+      "duration_s": 0.8854195011337869
+    },
+    "past": [
+      {
+        "clip_id": "G00015_53_21_013",
+        "audio_path": "Audio/wav/G00015/G00015_53/G00015_53_21/G00015_53_21_013.wav",
+        "speaker_id": "21",
+        "text": "我现在是想问，我还有弥补的机会吗？",
+        "emotion": "neutral",
+        "start_s": 70.77548546476935,
+        "end_s": 74.87961987835666
+      },
+      {
+        "clip_id": "G00015_53_21_015",
+        "audio_path": "Audio/wav/G00015/G00015_53/G00015_53_21/G00015_53_21_015.wav",
+        "speaker_id": "21",
+        "text": "没事，我我不希望给你压力啊，你是，我会尊重你的想法。只是我觉得如果我不把这个说出来，我可能会遗憾一辈子。",
+        "emotion": "neutral",
+        "start_s": 89.90033516869407,
+        "end_s": 102.12940573100758
+      },
+      {
+        "clip_id": "G00015_53_20_016",
+        "audio_path": "Audio/wav/G00015/G00015_53/G00015_53_20/G00015_53_20_016.wav",
+        "speaker_id": "20",
+        "text": "你早干嘛去了？早两年你不说呢？我等了你八年，你早干嘛去了？",
+        "emotion": "sad",
+        "start_s": 110.40538235942162,
+        "end_s": 126.56709702452125
+      }
+    ],
+    "note": "Labels included for audit only; never supply history gold labels or target captions to the model. This example does not prove that context improves classification."
+  },
+  {
+    "dialogue_id": "G00015_19",
+    "split": "test",
+    "target": {
+      "clip_id": "G00015_19_20_041",
+      "audio_path": "Audio/wav/G00015/G00015_19/G00015_19_20/G00015_19_20_041.wav",
+      "speaker_id": "20",
+      "text": "没没有啊。",
+      "emotion": "fearful",
+      "start_s": 100.86099863771864,
+      "end_s": 102.02406958017896,
+      "duration_s": 1.163061224489796
+    },
+    "past": [
+      {
+        "clip_id": "G00015_19_20_037",
+        "audio_path": "Audio/wav/G00015/G00015_19/G00015_19_20/G00015_19_20_037.wav",
+        "speaker_id": "20",
+        "text": "孩子爸爸，爸爸在国外，他不知道这些情况。",
+        "emotion": "fearful",
+        "start_s": 86.3633689986847,
+        "end_s": 89.78424295564567
+      },
+      {
+        "clip_id": "G00015_19_21_038",
+        "audio_path": "Audio/wav/G00015/G00015_19/G00015_19_21/G00015_19_21_038.wav",
+        "speaker_id": "21",
+        "text": "孩子爸爸在国外不知道这些情况。[over/]你[/over]，你最近啊问一个问[over/]题[/over]，但是你不要敏感啊。",
+        "emotion": "neutral",
+        "start_s": 90.148563728742,
+        "end_s": 94.65979556288336
+      },
+      {
+        "clip_id": "G00015_19_21_040",
+        "audio_path": "Audio/wav/G00015/G00015_19/G00015_19_21/G00015_19_21_040.wav",
+        "speaker_id": "21",
+        "text": "你们家最近和别人家有没有产生矛盾之类的事情？",
+        "emotion": "neutral",
+        "start_s": 95.0666696446712,
+        "end_s": 98.34807651914238
+      }
+    ],
+    "note": "Labels included for audit only; never supply history gold labels or target captions to the model. This example does not prove that context improves classification."
+  },
+  {
+    "dialogue_id": "G00003_43",
+    "split": "test",
+    "target": {
+      "clip_id": "G00003_43_02_002",
+      "audio_path": "Audio/wav/G00003/G00003_43/G00003_43_02/G00003_43_02_002.wav",
+      "speaker_id": "02",
+      "text": "烦死了。",
+      "emotion": "disgusted",
+      "start_s": 11.0314732935088,
+      "end_s": 11.94815851525457,
+      "duration_s": 0.9166893424036281
+    },
+    "past": [
+      {
+        "clip_id": "G00003_43_13_001",
+        "audio_path": "Audio/wav/G00003/G00003_43/G00003_43_13/G00003_43_13_001.wav",
+        "speaker_id": "13",
+        "text": "你看那那那那一桌儿，真的一点素质都没有。",
+        "emotion": "disgusted",
+        "start_s": 7.59390371196215,
+        "end_s": 11.0314732935088
+      }
+    ],
+    "note": "Labels included for audit only; never supply history gold labels or target captions to the model. This example does not prove that context improves classification."
+  },
+  {
+    "dialogue_id": "G00003_22",
+    "split": "test",
+    "target": {
+      "clip_id": "G00003_22_13_003",
+      "audio_path": "Audio/wav/G00003/G00003_22/G00003_22_13/G00003_22_13_003.wav",
+      "speaker_id": "13",
+      "text": "学了吗？啊？",
+      "emotion": "angry",
+      "start_s": 18.46606583107092,
+      "end_s": 20.07022554788656,
+      "duration_s": 1.6041496598639455
+    },
+    "past": [
+      {
+        "clip_id": "G00003_22_13_001",
+        "audio_path": "Audio/wav/G00003/G00003_22/G00003_22_13/G00003_22_13_001.wav",
+        "speaker_id": "13",
+        "text": "你说你每天拿着个破手机，按巴什么呢？这个雕刻技术你学没学啊？",
+        "emotion": "angry",
+        "start_s": 9.63589575350848,
+        "end_s": 15.85201465616907
+      },
+      {
+        "clip_id": "G00003_22_02_002",
+        "audio_path": "Audio/wav/G00003/G00003_22/G00003_22_02/G00003_22_02_002.wav",
+        "speaker_id": "02",
+        "text": "学着呢呀。",
+        "emotion": "disgusted",
+        "start_s": 15.89211864908947,
+        "end_s": 17.40877874498789
+      }
+    ],
+    "note": "Labels included for audit only; never supply history gold labels or target captions to the model. This example does not prove that context improves classification."
+  }
+]

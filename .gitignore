@@ -2468,3 +2468,15 @@
 !/dailytalk/upstream/ecss_val_frame.txt
 !/dailytalk/upstream/source_metadata.json
 !/dailytalk/utterances.csv
+
+# EmotionTalk retained-pilot metadata; raw WAV/JSON files stay in Release assets.
+!/emotiontalk/LICENSE-CC-BY-NC-SA-4.0.txt
+!/emotiontalk/LICENSE_REVIEW.json
+!/emotiontalk/README.md
+!/emotiontalk/audit.json
+!/emotiontalk/dialogues.csv
+!/emotiontalk/pilot_examples.json
+!/emotiontalk/review_dataset.py
+!/emotiontalk/source_manifest.json
+!/emotiontalk/upstream/HF_README.md
+!/emotiontalk/utterances.csv

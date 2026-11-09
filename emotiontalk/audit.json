@@ -1,0 +1,263 @@
+{
+  "source": {
+    "repository": "BAAI/Emotiontalk",
+    "revision": "adbc17fc944e8cf2873643906160c6ca0259ab61",
+    "filename": "Audio.tar",
+    "expected_bytes": 14811722752,
+    "expected_sha256": "f8599a70f55f489c948cd079c712acf340cf496c5267b14fb34e985539d57e41",
+    "licence": "CC BY-NC-SA 4.0",
+    "source_url": "https://huggingface.co/datasets/BAAI/Emotiontalk",
+    "download_type": "free repository file download; no inference or paid service",
+    "actual_sha256": "f8599a70f55f489c948cd079c712acf340cf496c5267b14fb34e985539d57e41",
+    "verified_bytes": 14811722752
+  },
+  "audio_files": 19250,
+  "json_files": 19250,
+  "indexed_rows": 19250,
+  "audio_bytes": 14750323934,
+  "audio_duration_s": 84968.94259637287,
+  "audio_duration_h": 23.60248405454802,
+  "formats": [
+    {
+      "channels": 1,
+      "sample_width": 2,
+      "sample_rate": 16000,
+      "compression": "NONE",
+      "clips": 120
+    },
+    {
+      "channels": 1,
+      "sample_width": 2,
+      "sample_rate": 44100,
+      "compression": "NONE",
+      "clips": 518
+    },
+    {
+      "channels": 2,
+      "sample_width": 2,
+      "sample_rate": 44100,
+      "compression": "NONE",
+      "clips": 18612
+    }
+  ],
+  "groups": 15,
+  "dialogues": 742,
+  "group_speaker_slots": 30,
+  "published_unique_speaker_ids": 19,
+  "speaker_id_note": "19 published speaker IDs, consistent with the paper actor count; identity was not independently verified by voice. IDs are reused across recording groups.",
+  "group_speaker_ids": {
+    "G00001": [
+      "01",
+      "02"
+    ],
+    "G00002": [
+      "07",
+      "08"
+    ],
+    "G00003": [
+      "02",
+      "13"
+    ],
+    "G00004": [
+      "05",
+      "09"
+    ],
+    "G00005": [
+      "06",
+      "10"
+    ],
+    "G00006": [
+      "07",
+      "12"
+    ],
+    "G00007": [
+      "11",
+      "14"
+    ],
+    "G00008": [
+      "07",
+      "11"
+    ],
+    "G00009": [
+      "12",
+      "14"
+    ],
+    "G00010": [
+      "05",
+      "08"
+    ],
+    "G00011": [
+      "06",
+      "09"
+    ],
+    "G00012": [
+      "13",
+      "15"
+    ],
+    "G00013": [
+      "16",
+      "17"
+    ],
+    "G00014": [
+      "18",
+      "19"
+    ],
+    "G00015": [
+      "20",
+      "21"
+    ]
+  },
+  "dialogue_speaker_count_distribution": {
+    "2": 734,
+    "1": 8
+  },
+  "emotion_counts": {
+    "neutral": 9378,
+    "angry": 3820,
+    "sad": 1110,
+    "disgusted": 818,
+    "happy": 2105,
+    "surprised": 1363,
+    "fearful": 656
+  },
+  "rater_count_distribution": {
+    "5": 19250
+  },
+  "confidence_min": 1.0,
+  "confidence_max": 9.0,
+  "final_label_not_unweighted_mode_count": 151,
+  "final_label_not_confidence_weighted_top_count": 150,
+  "final_label_not_mean_confidence_top_count": 375,
+  "confidence_values": [
+    1.0,
+    3.0,
+    5.0,
+    7.0,
+    9.0
+  ],
+  "label_aggregation_note": "Gold is the published emotion_result. Paper Eq.1 uses mean confidence per chosen class, with expert review of ambiguous cases. Mode/summed/mean confidence differences are diagnostics, not file corruption.",
+  "strict_past_definition": "Earlier complete turns from the same dialogue, endTime <= target startTime + 1ms; overlapping continuations excluded.",
+  "eligible_history_targets": 18467,
+  "nonneutral_history_targets": 9599,
+  "short_nonneutral_history_targets": 2566,
+  "primary_dyadic_history_targets": 18306,
+  "history_targets_with_prior_other_speaker": 17713,
+  "history_targets_with_prior_same_speaker": 17771,
+  "single_speaker_dialogues": [
+    "G00001_15",
+    "G00001_29",
+    "G00001_30",
+    "G00001_31",
+    "G00002_38",
+    "G00010_04",
+    "G00011_34",
+    "G00015_45"
+  ],
+  "single_speaker_dialogue_clips": 169,
+  "short_response_definition": "Audio <=2s or <=8 nonpunctuation/nonspace Unicode characters after removing square-bracket transcript markup.",
+  "multi_emotion_dialogues": 735,
+  "targets_with_earlier_turn_overlap": 4033,
+  "header_errors": [],
+  "missing_audio": [],
+  "unreferenced_wavs": [],
+  "duplicate_audio_references": {},
+  "metadata_vs_wav_duration_issues": [],
+  "timestamp_internal_duration_issues": [],
+  "speaker_index_time_order_issues": [],
+  "duplicate_speaker_intervals": [],
+  "issues": [],
+  "split_counts": {
+    "train": {
+      "clips": 15413,
+      "dialogues": 587,
+      "emotion_counts": {
+        "happy": 1720,
+        "neutral": 7568,
+        "angry": 3057,
+        "surprised": 1087,
+        "sad": 898,
+        "disgusted": 612,
+        "fearful": 471
+      },
+      "speaker_ids": [
+        "05",
+        "06",
+        "07",
+        "08",
+        "09",
+        "10",
+        "11",
+        "12",
+        "14",
+        "16",
+        "17",
+        "18",
+        "19"
+      ],
+      "history_targets": 14789,
+      "primary_dyadic_history_targets": 14747
+    },
+    "validation": {
+      "clips": 1908,
+      "dialogues": 71,
+      "emotion_counts": {
+        "neutral": 866,
+        "angry": 418,
+        "sad": 118,
+        "disgusted": 69,
+        "happy": 208,
+        "surprised": 133,
+        "fearful": 96
+      },
+      "speaker_ids": [
+        "01",
+        "02",
+        "13",
+        "15"
+      ],
+      "history_targets": 1836,
+      "primary_dyadic_history_targets": 1729
+    },
+    "test": {
+      "clips": 1929,
+      "dialogues": 84,
+      "emotion_counts": {
+        "surprised": 143,
+        "neutral": 944,
+        "sad": 94,
+        "angry": 345,
+        "disgusted": 137,
+        "happy": 177,
+        "fearful": 89
+      },
+      "speaker_ids": [
+        "02",
+        "13",
+        "20",
+        "21"
+      ],
+      "history_targets": 1842,
+      "primary_dyadic_history_targets": 1830
+    }
+  },
+  "split_speaker_overlaps": {
+    "train__validation": [],
+    "train__test": [],
+    "validation__test": [
+      "02",
+      "13"
+    ]
+  },
+  "upstream_discrepancies": [
+    "Audio.tar contains 742 nonempty dialogue directories rather than the paper 744; no files invented to fill the gap.",
+    "Audio gold label counts differ from the HF README table; paper audio neutral proportion 48.7% agrees with actual Audio/json, while README table neutral proportion 35.6% agrees with paper multimodal labels.",
+    "Audio WAV formats are mixed: predominantly stereo 44.1 kHz, with mono 44.1 kHz and mono 16 kHz exceptions; resample/downmix at model input time."
+  ],
+  "annotation_limitations": [
+    "Published audio-only ratings may include access to earlier turns; not paired isolated-versus-context human ratings.",
+    "Caption fields are descriptive auxiliary material, not the categorical gold label.",
+    "Validation and test share published speaker IDs 02 and 13; do not call the three official subsets mutually speaker-disjoint.",
+    "Eight dialogue IDs contain only one published speaker in Audio.tar; exclude these from primary dyadic analysis.",
+    "Professional actors performed theme-guided improvisations; this is conversational data collected in a controlled setting, not uncontrolled everyday recordings."
+  ]
+}

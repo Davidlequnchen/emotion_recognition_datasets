@@ -11,11 +11,11 @@ Bulk data is stored in GitHub Releases. Git LFS is not used.
 Python 3.9+ is enough for the Release downloader. No model environment or hub account is needed.
 
 ```bash
-python3 download.py                   # restore the ten mirrored datasets
+python3 download.py                   # restore the eleven mirrored datasets
 python3 download.py mead thai_ser     # or only selected datasets
-python3 download.py dailytalk          # restore the retained dialogue-context pilot candidate
+python3 download.py dailytalk emotiontalk  # restore the retained dialogue-context candidates
 python3 download.py --list            # show the thirteen evaluation copies plus retained pilot candidates
-python3 download.py --verify-only     # verify the ten mirrored datasets offline
+python3 download.py --verify-only     # verify the eleven mirrored datasets offline
 ```
 
 From the main repository root:
@@ -29,7 +29,7 @@ files, and restores missing mirrored data. In a full main-project clone, it can 
 ESD is excluded from this catalogue and is never uploaded here. Unknown extra local materials remain in the
 preserved backup. Runtime paths stay `data/<dataset>/` inside the emotion-recognition project.
 
-The ten mirror archives total about 15.49 GB of downloads and restore about 18.72 GB of files. Each archive is
+The eleven mirror archives total about 25.09 GB of downloads and restore about 33.52 GB of files. Each archive is
 split into attachments of at most 1.5 GiB. The downloader resumes interrupted transfers, checks every part and the
 complete archive with SHA-256, verifies every extracted file against the manifest before replacing dataset files,
 and leaves unrelated local files untouched. Default caches are removed after successful restoration; allow
@@ -37,8 +37,8 @@ additional working disk space for the current archive, downloaded parts, and sta
 
 ## Catalogue
 
-The catalogue contains thirteen evaluation copies plus DailyTalk as a retained context-pilot candidate. Adding a
-retained dataset here does not add it to the main evaluation's model loaders or thirteen-dataset scope. Rows do not
+The catalogue contains thirteen evaluation copies plus DailyTalk and EmotionTalk as retained context-pilot
+candidates. Adding a retained dataset here does not add it to the main evaluation's model loaders or thirteen-dataset scope. Rows do not
 represent every upstream video, microphone channel or split. `manifest.json` pins exact file lists, sizes, SHA-256
 values and storage sources.
 
@@ -58,6 +58,7 @@ values and storage sources.
 | [RAVDESS](https://zenodo.org/records/1188976) (`ravdess`) | Original external source | 0.590 | Speech audio only: 1,440 WAVs | See the original source licence and notices |
 | [Emozionalmente](https://zenodo.org/records/12616095) (`emozionalmente`) | Original external source | 0.732 | v1.1: 6,902 WAVs and source metadata | See the original source licence and notices |
 | [DailyTalk](https://github.com/keonlee9420/DailyTalk) (`dailytalk`) | Release mirror; retained pilot | 6.917 | 2,541 ordered dialogues, 23,773 original WAV/TXT pairs and pinned metadata/ECSS supplements; not added to formal evaluation | Audio/data CC BY-SA 4.0; ECSS files retain MIT notices |
+| [EmotionTalk](https://huggingface.co/datasets/BAAI/Emotiontalk) (`emotiontalk`) | Release mirror; retained pilot | 14.793 | 19,250 original audio/JSON pairs, 742 dialogue IDs and audited past-history indexes; not added to formal evaluation | CC BY-NC-SA 4.0; attribution and changes preserved; not MIT |
 
 Sizes use decimal GB. Each dataset retains its original terms; this repository does not apply one blanket licence
 to all recordings. Original source notes and notices are preserved. For SAVEE, the repository owner confirmed
@@ -114,6 +115,39 @@ python3 emotion_recognition/data/download.py dailytalk --verify-only
 
 This restores a research candidate; it does not start model evaluation or change the current thirteen-dataset
 benchmark. DailyTalk audio/data remains CC BY-SA 4.0, with upstream source and ECSS notices preserved.
+
+## EmotionTalk context-pilot addition
+
+EmotionTalk passed the complete local WAV/JSON audit on 2026-11-09. This retained candidate preserves all
+19,250 audio/JSON pairs from the official Audio.tar, with 23.6025 hours, audio-specific emotion labels,
+transcripts, speaker IDs and dialogue timestamps. The pinned archive contains 742 dialogue IDs rather than
+the paper's 744; 734 have both speakers' published turns. There are 18,306 conservative past-history targets
+after excluding the eight single-speaker dialogue copies. See `emotiontalk/README.md` and `emotiontalk/audit.json`.
+
+Audio gold labels differ from the dataset card's overall distribution; use Audio/json emotion_result.
+Validation and test share speaker IDs 02 and 13. The annotation player allowed earlier-turn playback,
+so these are not paired human isolated-versus-context judgments. Audio bytes remain unchanged; formats are
+mixed, predominantly stereo 44.1 kHz, and model-side downmix/resampling remains a separate step.
+
+The source is CC BY-NC-SA 4.0, not MIT. Original attribution, license text, source/version links, and a notice
+of the added indexes/audit are included. The official Hugging Face repository currently uses a free automatic
+access gate; current public card metadata and README show no additional redistribution prohibition.
+This public mirror follows the stated noncommercial, attribution and ShareAlike license conditions.
+No paid inference, compute service, subscription or download was used. The additional candidate does not
+change the thirteen-dataset evaluation scope or start a model evaluation.
+
+After pulling the main project at a commit that pins this data-submodule version:
+
+```bash
+git submodule update --init --recursive emotion_recognition/data
+python3 emotion_recognition/data/download.py emotiontalk
+python3 emotion_recognition/data/download.py emotiontalk --verify-only
+```
+
+For a standalone clone of this data repository, use `git pull --ff-only` followed by
+`python3 download.py emotiontalk`. Release assets are appended under names containing the complete
+archive SHA prefix; existing assets are retained. Git contains the small audit/index files and manifest;
+raw per-clip JSON and WAV bytes are restored from verified Release attachments.
 
 ## Company HTTPS certificates
 

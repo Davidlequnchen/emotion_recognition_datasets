@@ -1,0 +1,12 @@
+{
+  "repository": "BAAI/Emotiontalk",
+  "revision": "adbc17fc944e8cf2873643906160c6ca0259ab61",
+  "filename": "Audio.tar",
+  "expected_bytes": 14811722752,
+  "expected_sha256": "f8599a70f55f489c948cd079c712acf340cf496c5267b14fb34e985539d57e41",
+  "licence": "CC BY-NC-SA 4.0",
+  "source_url": "https://huggingface.co/datasets/BAAI/Emotiontalk",
+  "download_type": "free repository file download; no inference or paid service",
+  "actual_sha256": "f8599a70f55f489c948cd079c712acf340cf496c5267b14fb34e985539d57e41",
+  "verified_bytes": 14811722752
+}
