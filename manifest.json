@@ -452239,9 +452239,9 @@
       }
     },
     "dailytalk": {
-      "name": "DailyTalk (retained context-pilot candidate)",
+      "name": "DailyTalk",
       "source": "https://github.com/keonlee9420/DailyTalk",
-      "scope": "2,541 performed dyadic dialogues, 23,773 original WAV/TXT pairs, original metadata, pinned ECSS supplemental labels and audited ordered indexes; retained for context pilots, not yet added to the 13-dataset evaluation",
+      "scope": "Full corpus retained and adopted: 2,541 performed dyadic dialogues, all 23,773 original WAV/TXT pairs, original metadata, pinned ECSS supplemental labels and audited ordered indexes. Restoration does not sample or restrict audio to a pilot/evaluation subset; main-project evaluation splits are selected independently.",
       "licence": "DailyTalk audio/data CC BY-SA 4.0; ECSS supplemental files retain their upstream MIT notice. Code MIT does not relicense the audio.",
       "storage": "release",
       "files": [
@@ -690091,9 +690091,9 @@
       }
     },
     "emotiontalk": {
-      "name": "EmotionTalk (retained context-pilot candidate)",
+      "name": "EmotionTalk",
       "source": "https://huggingface.co/datasets/BAAI/Emotiontalk",
-      "scope": "19,250 original WAV/JSON pairs, 23.6025 hours, 742 published dialogue IDs (734 with both speakers), audio-specific emotion labels and audited timestamp-ordered history indexes; retained for context pilots, not added to the 13-dataset evaluation",
+      "scope": "Full official audio corpus retained and adopted: all 19,250 original WAV/JSON pairs, 23.6025 hours, 742 published dialogue IDs (734 with both speakers), audio-specific emotion labels and audited timestamp-ordered history indexes. Restoration does not sample or restrict audio to a pilot/evaluation subset; main-project evaluation splits are selected independently.",
       "licence": "CC BY-NC-SA 4.0; upstream attribution, license and local change notices preserved. Official free HF automatic gate currently shows no additional redistribution restrictions.",
       "storage": "release",
       "files": [

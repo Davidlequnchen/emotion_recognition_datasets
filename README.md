@@ -58,8 +58,8 @@ values and storage sources.
 | [MESS](https://zenodo.org/records/3813437) (`mess`) | Original external source | 0.234 | 1,800 WAVs | See the original source licence and notices |
 | [RAVDESS](https://zenodo.org/records/1188976) (`ravdess`) | Original external source | 0.590 | Speech audio only: 1,440 WAVs | See the original source licence and notices |
 | [Emozionalmente](https://zenodo.org/records/12616095) (`emozionalmente`) | Original external source | 0.732 | v1.1: 6,902 WAVs and source metadata | See the original source licence and notices |
-| [DailyTalk](https://github.com/keonlee9420/DailyTalk) (`dailytalk`) | Release mirror; retained pilot | 6.917 | 2,541 ordered dialogues, 23,773 original WAV/TXT pairs and pinned metadata/ECSS supplements; not added to formal evaluation | Audio/data CC BY-SA 4.0; ECSS files retain MIT notices |
-| [EmotionTalk](https://huggingface.co/datasets/BAAI/Emotiontalk) (`emotiontalk`) | Release mirror; retained pilot | 14.793 | 19,250 original audio/JSON pairs, 742 dialogue IDs and audited past-history indexes; not added to formal evaluation | CC BY-NC-SA 4.0; attribution and changes preserved; not MIT |
+| [DailyTalk](https://github.com/keonlee9420/DailyTalk) (`dailytalk`) | Release mirror; full corpus adopted | 6.917 | All 2,541 ordered dialogues and 23,773 original WAV/TXT pairs, plus pinned metadata/ECSS supplements; download does not sample | Audio/data CC BY-SA 4.0; ECSS files retain MIT notices |
+| [EmotionTalk](https://huggingface.co/datasets/BAAI/Emotiontalk) (`emotiontalk`) | Release mirror; full audio corpus adopted | 14.793 | All 19,250 original audio/JSON pairs, 742 dialogue IDs and audited past-history indexes; download does not sample | CC BY-NC-SA 4.0; attribution and changes preserved; not MIT |
 
 | [MultiDialog](https://huggingface.co/datasets/IVLLab/MultiDialog) (`multidialog`) | Release mirror; QC-limited tests | 3.758 | All 18,141 original test WAVs / 831 dialogues retained; default both-gold-actor + dialogue-QC cohort: 7,672 clips / 353 dialogues; baseline pending | CC BY-NC 4.0; audio unchanged, source attribution and changes preserved |
 
@@ -96,7 +96,7 @@ JL-Corpus contains only the previously committed 2,400 recordings, transcripts a
 materials and stock photos in the local download are omitted. THAI-SER keeps the four evaluated emotions, MEAD
 keeps Part0 audio, and MELD keeps the test split. All archived audio bytes are unchanged from those local copies.
 
-## DailyTalk context-pilot addition
+## DailyTalk: complete retained corpus
 
 DailyTalk passed the local structural and audio audit on 2026-11-09. Its 23,773 audio files preserve the authors'
 bytes, 44.1 kHz PCM16 format, and explicit dialogue/turn/speaker IDs. The copy includes original transcripts and
@@ -116,12 +116,15 @@ python3 emotion_recognition/scripts/common/setup_datasets.py dailytalk
 python3 emotion_recognition/data/download.py dailytalk --verify-only
 ```
 
-This restores a research candidate; it does not start model evaluation or change the current thirteen-dataset
-benchmark. DailyTalk audio/data remains CC BY-SA 4.0, with upstream source and ECSS notices preserved.
+This restores **all 23,773 recordings**, not a small pilot subset. DailyTalk is adopted within the sixteen-dataset
+project catalogue. Download scope and evaluation split are independent: the current main-project default
+uses the ECSS validation split (1,197 clips), while the complete corpus remains available locally. Downloads
+do not run evaluation or change its split. DailyTalk audio/data remains CC BY-SA 4.0, with upstream source
+and ECSS notices preserved.
 
-## EmotionTalk context-pilot addition
+## EmotionTalk: complete retained audio corpus
 
-EmotionTalk passed the complete local WAV/JSON audit on 2026-11-09. This retained candidate preserves all
+EmotionTalk passed the complete local WAV/JSON audit on 2026-11-09. This adopted audio corpus preserves all
 19,250 audio/JSON pairs from the official Audio.tar, with 23.6025 hours, audio-specific emotion labels,
 transcripts, speaker IDs and dialogue timestamps. The pinned archive contains 742 dialogue IDs rather than
 the paper's 744; 734 have both speakers' published turns. There are 18,306 conservative past-history targets
@@ -136,8 +139,10 @@ The source is CC BY-NC-SA 4.0, not MIT. Original attribution, license text, sour
 of the added indexes/audit are included. The official Hugging Face repository currently uses a free automatic
 access gate; current public card metadata and README show no additional redistribution prohibition.
 This public mirror follows the stated noncommercial, attribution and ShareAlike license conditions.
-No paid inference, compute service, subscription or download was used. The additional candidate does not
-change the thirteen-dataset evaluation scope or start a model evaluation.
+No paid inference, compute service, subscription or download was used. Restoration retains **all 19,250
+recordings**, not just the current main-project default official test split of 1,929 clips. Evaluation
+configurations select their own split independently; downloading the full audio corpus does not run a model
+or change the configured split. The Multimodal.tar/video package remains outside this audio-only copy.
 
 After pulling the main project at a commit that pins this data-submodule version:
 
